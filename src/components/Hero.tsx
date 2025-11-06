@@ -4,8 +4,9 @@ import heroImage from "@/assets/hero-cyber.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[90vh] flex items-center bg-gradient-hero overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-accent/10 via-transparent to-transparent"></div>
+    <section className="relative min-h-[90vh] flex items-center bg-gradient-hero overflow-hidden pt-20">
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-secondary/20 via-transparent to-transparent"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-accent/10 via-transparent to-transparent"></div>
       
       <div className="container relative z-10 mx-auto px-4 py-12">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -17,8 +18,8 @@ const Hero = () => {
             </div>
             
             <div className="space-y-4">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                Proteja a sua empresa. <span className="bg-gradient-primary bg-clip-text text-transparent">Teste o seu site gratuitamente.</span>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-foreground">
+                Proteja a sua empresa. <span className="bg-gradient-accent bg-clip-text text-transparent">Teste o seu site gratuitamente.</span>
               </h1>
               
               <p className="text-lg md:text-xl text-muted-foreground max-w-xl">

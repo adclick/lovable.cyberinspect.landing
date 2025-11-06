@@ -26,8 +26,8 @@ const FinalCTA = () => {
                 Oferta válida por tempo limitado
               </div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-                Experimente gratuitamente — <span className="bg-gradient-primary bg-clip-text text-transparent">sem compromisso.</span>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-foreground">
+                Experimente gratuitamente — <span className="bg-gradient-accent bg-clip-text text-transparent">sem compromisso.</span>
               </h2>
               <p className="text-lg text-muted-foreground">
                 Inclui um teste automático de intrusão e relatório com recomendações.

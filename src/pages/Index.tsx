@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet";
+import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Benefits from "@/components/Benefits";
 import HowItWorks from "@/components/HowItWorks";
@@ -32,6 +33,7 @@ const Index = () => {
         <meta name="twitter:description" content="Descubra vulnerabilidades digitais em minutos. Diagnóstico gratuito." />
       </Helmet>
 
+      <Header />
       <main>
         <Hero />
         <Benefits />
