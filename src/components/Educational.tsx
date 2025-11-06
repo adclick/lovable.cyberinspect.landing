@@ -49,13 +49,13 @@ const Educational = () => {
             })}
           </div>
 
-          <div className="mt-12 p-8 bg-card rounded-2xl border border-border shadow-card">
+          <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl border border-accent/20 shadow-card">
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 rounded-lg bg-accent/20 flex items-center justify-center flex-shrink-0">
                 <Shield className="w-6 h-6 text-accent" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-2">Proteja o seu negócio hoje</h3>
+                <h3 className="text-xl font-semibold mb-3">Cumprir a NIS2 começa por saber onde estão as vulnerabilidades</h3>
                 <p className="text-muted-foreground">
                   Não espere ser vítima de um ataque. A prevenção é sempre mais barata que a recuperação. 
                   Com o diagnóstico gratuito da CyberInspect, descobre vulnerabilidades antes que sejam exploradas.
