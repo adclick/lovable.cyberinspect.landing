@@ -1,5 +1,4 @@
 import { Card } from "@/components/ui/card";
-import platformImage from "@/assets/platform-screenshot.jpg";
 
 const steps = [
   {
@@ -37,8 +36,7 @@ const HowItWorks = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Steps */}
+        <div className="max-w-3xl mx-auto">
           <div className="space-y-6">
             {steps.map((step, index) => (
               <Card key={index} className="p-6 border-l-4 border-l-accent hover:shadow-card transition-all duration-300">
@@ -55,18 +53,6 @@ const HowItWorks = () => {
                 </div>
               </Card>
             ))}
-          </div>
-
-          {/* Platform Screenshot */}
-          <div className="relative">
-            <div className="rounded-2xl overflow-hidden shadow-2xl border border-border">
-              <img 
-                src={platformImage} 
-                alt="Plataforma CyberInspect em uso" 
-                className="w-full h-auto"
-              />
-            </div>
-            <div className="absolute -inset-4 bg-gradient-primary opacity-20 blur-3xl -z-10"></div>
           </div>
         </div>
       </div>
