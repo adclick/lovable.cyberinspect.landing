@@ -58,7 +58,7 @@ const Benefits = () => {
 
         <div className="text-center">
           <Button variant="cta" size="lg">
-            Descubra o seu nível de risco
+            Pedir Diagnóstico Gratuito
           </Button>
         </div>
       </div>

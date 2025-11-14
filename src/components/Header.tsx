@@ -33,7 +33,7 @@ const Header = () => {
 
           {/* CTA Button */}
           <Button variant="cta" size="default">
-            Diagnóstico Gratuito
+            Pedir Diagnóstico Gratuito
           </Button>
         </div>
       </div>
