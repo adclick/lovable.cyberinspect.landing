@@ -35,7 +35,7 @@ const FinalCTA = () => {
             </div>
 
             {/* Lead Form */}
-            <form className="max-w-2xl mx-auto mb-8">
+            <form id="form" className="max-w-2xl mx-auto mb-8">
               <div className="grid md:grid-cols-3 gap-4 mb-4">
                 <Input placeholder="Nome" className="h-12" />
                 <Input type="email" placeholder="E-mail" className="h-12" />
