@@ -42,7 +42,7 @@ const FinalCTA = () => {
                 <Input placeholder="Empresa" className="h-12" />
               </div>
               <Button variant="cta" size="xl" className="w-full">
-                Fazer Diagnóstico Gratuito Agora
+                Pedir Diagnóstico Gratuito Agora
               </Button>
             </form>
 
