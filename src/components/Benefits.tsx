@@ -1,27 +1,32 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Brain, Settings, Users, Lock } from "lucide-react";
+import { Shield, FileText, Target, Layers, CheckCircle } from "lucide-react";
 
 const benefits = [
   {
-    icon: Brain,
-    title: "Diagnóstico Personalizado",
-    description: "Identifique vulnerabilidades antes que sejam exploradas.",
+    icon: Shield,
+    title: "Identificação de vulnerabilidades reais",
+    description: "Descobrimos falhas de segurança concretas no seu site.",
   },
   {
-    icon: Settings,
-    title: "Plataforma Simples",
-    description: "Todos os testes num só local, sem complexidade.",
+    icon: FileText,
+    title: "Explicação clara, sem alarmismo",
+    description: "Resultados apresentados de forma simples e compreensível.",
   },
   {
-    icon: Users,
-    title: "Apoio Especializado",
-    description: "Consultores que o acompanham em cada passo.",
+    icon: Target,
+    title: "Prioridades de correção bem definidas",
+    description: "Sabemos o que corrigir primeiro para máxima proteção.",
   },
   {
-    icon: Lock,
-    title: "Conformidade Garantida",
-    description: "Certificação ISO 27001 e RGPD.",
+    icon: Layers,
+    title: "Testes essenciais reunidos numa única plataforma",
+    description: "Tudo o que precisa num só lugar, sem complicações.",
+  },
+  {
+    icon: CheckCircle,
+    title: "Conformidade com boas práticas de segurança",
+    description: "Garantimos que segue os padrões de segurança reconhecidos.",
   },
 ];
 
@@ -31,7 +36,7 @@ const Benefits = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-foreground">
-            Porquê escolher a <span className="bg-gradient-accent bg-clip-text text-transparent">CyberInspect?</span>
+            Porquê escolher a <span className="text-secondary">CyberInspect?</span>
           </h2>
           <p className="text-lg text-muted-foreground">
             Proteja o seu negócio com a solução mais completa do mercado

@@ -5,6 +5,7 @@ import Benefits from "@/components/Benefits";
 import HowItWorks from "@/components/HowItWorks";
 import SocialProof from "@/components/SocialProof";
 import Educational from "@/components/Educational";
+import DiagnosticIncludes from "@/components/DiagnosticIncludes";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 import StickyMobileCTA from "@/components/StickyMobileCTA";
@@ -16,9 +17,9 @@ const Index = () => {
         <title>CyberInspect - Proteja a sua empresa. Teste o seu site gratuitamente.</title>
         <meta 
           name="description" 
-          content="Descubra vulnerabilidades digitais em minutos e receba um diagnóstico inicial gratuito. Marca do Grupo NOS com certificação ISO 27001 & RGPD." 
+          content="Descubra vulnerabilidades digitais em minutos e receba um diagnóstico inicial gratuito. Marca do Grupo NOS com certificação ISO 27001." 
         />
-        <meta name="keywords" content="cibersegurança, teste de segurança, vulnerabilidades, diagnóstico gratuito, ISO 27001, RGPD" />
+        <meta name="keywords" content="cibersegurança, teste de segurança, vulnerabilidades, diagnóstico gratuito, ISO 27001" />
         <link rel="canonical" href="https://cyberinspect.pt" />
         
         {/* Open Graph */}
@@ -40,6 +41,7 @@ const Index = () => {
         <HowItWorks />
         <SocialProof />
         <Educational />
+        <DiagnosticIncludes />
         <FinalCTA />
         <Footer />
         <StickyMobileCTA />
