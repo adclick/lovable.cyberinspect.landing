@@ -13,11 +13,6 @@ const includes = [
     description: "Entenda as consequências reais de cada vulnerabilidade",
   },
   {
-    icon: FileText,
-    title: "Explicação simples e clara",
-    description: "Sem jargão técnico, em linguagem acessível",
-  },
-  {
     icon: Target,
     title: "Prioridades de correção",
     description: "O que deve corrigir primeiro e porquê",
