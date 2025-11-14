@@ -28,13 +28,15 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="cta" size="xl" className="group">
-                Pedir Diagnóstico Gratuito
-                <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+              <Button variant="cta" size="xl" className="group" asChild>
+                <a href="#form">
+                  Pedir Diagnóstico Gratuito
+                  <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                </a>
               </Button>
               
-              <Button variant="outline-light" size="xl">
-                Saiba Mais
+              <Button variant="outline-light" size="xl" asChild>
+                <a href="#form">Saiba Mais</a>
               </Button>
             </div>
 

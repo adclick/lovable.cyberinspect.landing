@@ -32,8 +32,8 @@ const Header = () => {
           </nav>
 
           {/* CTA Button */}
-          <Button variant="cta" size="default">
-            Pedir Diagnóstico Gratuito
+          <Button variant="cta" size="default" asChild>
+            <a href="#form">Pedir Diagnóstico Gratuito</a>
           </Button>
         </div>
       </div>

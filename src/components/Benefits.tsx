@@ -57,8 +57,8 @@ const Benefits = () => {
         </div>
 
         <div className="text-center">
-          <Button variant="cta" size="lg">
-            Pedir Diagnóstico Gratuito
+          <Button variant="cta" size="lg" asChild>
+            <a href="#form">Pedir Diagnóstico Gratuito</a>
           </Button>
         </div>
       </div>
