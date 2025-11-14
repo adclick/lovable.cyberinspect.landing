@@ -32,7 +32,7 @@ const Educational = () => {
               Cibersegurança não é um luxo. <span className="bg-gradient-accent bg-clip-text text-transparent">É uma necessidade.</span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              Os números falam por si — testar é o primeiro passo para proteger o seu negócio
+              Os números falam por si - testar é o primeiro passo para proteger o seu negócio
             </p>
           </div>
 
