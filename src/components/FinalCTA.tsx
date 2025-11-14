@@ -27,7 +27,7 @@ const FinalCTA = () => {
               </div>
 
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-foreground">
-                Experimente gratuitamente — <span className="bg-gradient-accent bg-clip-text text-transparent">sem compromisso.</span>
+                Quero saber mais
               </h2>
               <p className="text-lg text-muted-foreground">
                 Inclui um teste automático de intrusão e relatório com recomendações.
