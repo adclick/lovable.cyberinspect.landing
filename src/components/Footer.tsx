@@ -11,11 +11,8 @@ const Footer = () => {
             alt="CyberInspect Logo" 
             className="h-10 w-auto mb-4"
           />
-          <p className="text-muted-foreground text-sm mb-2">
+          <p className="text-muted-foreground text-sm">
             Uma marca NOS
-          </p>
-          <p className="text-muted-foreground/60 text-sm">
-            Protegendo empresas portuguesas desde 2025
           </p>
         </div>
 

@@ -9,11 +9,6 @@ const benefits = [
     description: "Descobrimos falhas de segurança concretas no seu site.",
   },
   {
-    icon: FileText,
-    title: "Explicação clara, sem alarmismo",
-    description: "Resultados apresentados de forma simples e compreensível.",
-  },
-  {
     icon: Target,
     title: "Prioridades de correção bem definidas",
     description: "Sabemos o que corrigir primeiro para máxima proteção.",
