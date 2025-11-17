@@ -28,6 +28,7 @@ const FinalCTA = () => {
       name: formData.get("name"),
       email: formData.get("email"),
       company: formData.get("company"),
+      phone: formData.get("phone"),
       timestamp: new Date().toISOString(),
     };
 
@@ -87,10 +88,11 @@ const FinalCTA = () => {
 
             {/* Lead Form */}
             <form id="form" className="max-w-2xl mx-auto mb-8" onSubmit={handleSubmit}>
-              <div className="grid md:grid-cols-3 gap-4 mb-4">
+              <div className="grid md:grid-cols-2 gap-4 mb-4">
                 <Input name="name" placeholder="Nome" className="h-12" required />
                 <Input name="email" type="email" placeholder="E-mail" className="h-12" required />
                 <Input name="company" placeholder="Empresa" className="h-12" required />
+                <Input name="phone" type="tel" placeholder="Telemóvel" className="h-12" required />
               </div>
               <div className="flex items-start gap-3 mb-6">
                 <Checkbox id="terms" className="mt-1" required />
