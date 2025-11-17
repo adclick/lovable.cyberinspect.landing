@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card } from "@/components/ui/card";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Label } from "@/components/ui/label";
 import { CheckCircle2, Clock, FileText, CreditCard } from "lucide-react";
 
 const features = [
@@ -40,6 +42,18 @@ const FinalCTA = () => {
                 <Input placeholder="Nome" className="h-12" />
                 <Input type="email" placeholder="E-mail" className="h-12" />
                 <Input placeholder="Empresa" className="h-12" />
+              </div>
+              <div className="mb-4">
+                <Input placeholder="NIF" className="h-12" />
+              </div>
+              <div className="flex items-start gap-3 mb-6">
+                <Checkbox id="terms" className="mt-1" />
+                <Label 
+                  htmlFor="terms" 
+                  className="text-sm text-muted-foreground leading-relaxed cursor-pointer"
+                >
+                  Aceito o tratamento destes dados pela NOS para efeitos de envio de comunicações de produtos e serviços e de eventos relacionados com a plataforma CyberInspect.
+                </Label>
               </div>
               <Button variant="cta" size="xl" className="w-full">
                 Pedir Diagnóstico Gratuito Agora
