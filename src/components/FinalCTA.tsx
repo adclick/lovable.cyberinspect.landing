@@ -4,6 +4,8 @@ import { Card } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 import { CheckCircle2, Clock, FileText, CreditCard } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+import { FormEvent } from "react";
 
 const features = [
   { icon: CreditCard, text: "Sem cartão de crédito" },
@@ -12,6 +14,13 @@ const features = [
 ];
 
 const FinalCTA = () => {
+  const navigate = useNavigate();
+
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    navigate("/obrigado");
+  };
+
   return (
     <section className="py-24 bg-gradient-hero relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-accent/10 via-transparent to-transparent"></div>
@@ -37,17 +46,14 @@ const FinalCTA = () => {
             </div>
 
             {/* Lead Form */}
-            <form id="form" className="max-w-2xl mx-auto mb-8">
+            <form id="form" className="max-w-2xl mx-auto mb-8" onSubmit={handleSubmit}>
               <div className="grid md:grid-cols-3 gap-4 mb-4">
-                <Input placeholder="Nome" className="h-12" />
-                <Input type="email" placeholder="E-mail" className="h-12" />
-                <Input placeholder="Empresa" className="h-12" />
-              </div>
-              <div className="mb-4">
-                <Input placeholder="NIF" className="h-12" />
+                <Input placeholder="Nome" className="h-12" required />
+                <Input type="email" placeholder="E-mail" className="h-12" required />
+                <Input placeholder="Empresa" className="h-12" required />
               </div>
               <div className="flex items-start gap-3 mb-6">
-                <Checkbox id="terms" className="mt-1" />
+                <Checkbox id="terms" className="mt-1" required />
                 <Label 
                   htmlFor="terms" 
                   className="text-sm text-muted-foreground leading-relaxed cursor-pointer"
@@ -55,7 +61,7 @@ const FinalCTA = () => {
                   Aceito o tratamento destes dados pela NOS para efeitos de envio de comunicações de produtos e serviços e de eventos relacionados com a plataforma CyberInspect.
                 </Label>
               </div>
-              <Button variant="cta" size="xl" className="w-full">
+              <Button type="submit" variant="cta" size="xl" className="w-full">
                 Pedir Diagnóstico Gratuito Agora
               </Button>
             </form>
