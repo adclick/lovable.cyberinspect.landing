@@ -5,7 +5,8 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 import { CheckCircle2, Clock, FileText, CreditCard } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { FormEvent } from "react";
+import { FormEvent, useState } from "react";
+import { useToast } from "@/hooks/use-toast";
 
 const features = [
   { icon: CreditCard, text: "Sem cartão de crédito" },
@@ -15,10 +16,49 @@ const features = [
 
 const FinalCTA = () => {
   const navigate = useNavigate();
+  const { toast } = useToast();
+  const [isLoading, setIsLoading] = useState(false);
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    navigate("/obrigado");
+    setIsLoading(true);
+
+    const formData = new FormData(e.currentTarget);
+    const data = {
+      name: formData.get("name"),
+      email: formData.get("email"),
+      company: formData.get("company"),
+      timestamp: new Date().toISOString(),
+    };
+
+    try {
+      const response = await fetch("https://hook.eu1.make.com/nd2gu54lcpod5mfsq18cuoijk8dpi91a", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        navigate("/obrigado");
+      } else {
+        toast({
+          title: "Erro ao enviar",
+          description: "Por favor, tente novamente.",
+          variant: "destructive",
+        });
+      }
+    } catch (error) {
+      console.error("Error sending to Make.com:", error);
+      toast({
+        title: "Erro ao enviar",
+        description: "Por favor, tente novamente.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -48,9 +88,9 @@ const FinalCTA = () => {
             {/* Lead Form */}
             <form id="form" className="max-w-2xl mx-auto mb-8" onSubmit={handleSubmit}>
               <div className="grid md:grid-cols-3 gap-4 mb-4">
-                <Input placeholder="Nome" className="h-12" required />
-                <Input type="email" placeholder="E-mail" className="h-12" required />
-                <Input placeholder="Empresa" className="h-12" required />
+                <Input name="name" placeholder="Nome" className="h-12" required />
+                <Input name="email" type="email" placeholder="E-mail" className="h-12" required />
+                <Input name="company" placeholder="Empresa" className="h-12" required />
               </div>
               <div className="flex items-start gap-3 mb-6">
                 <Checkbox id="terms" className="mt-1" required />
@@ -61,8 +101,8 @@ const FinalCTA = () => {
                   Aceito o tratamento destes dados pela NOS para efeitos de envio de comunicações de produtos e serviços e de eventos relacionados com a plataforma CyberInspect.
                 </Label>
               </div>
-              <Button type="submit" variant="cta" size="xl" className="w-full">
-                Pedir Diagnóstico Gratuito Agora
+              <Button type="submit" variant="cta" size="xl" className="w-full" disabled={isLoading}>
+                {isLoading ? "Enviando..." : "Pedir Diagnóstico Gratuito Agora"}
               </Button>
             </form>
 
