@@ -18,9 +18,34 @@ const FinalCTA = () => {
   const navigate = useNavigate();
   const { toast } = useToast();
   const [isLoading, setIsLoading] = useState(false);
+  const [phone, setPhone] = useState("");
+
+  const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value.replace(/\D/g, ""); // Remove non-digits
+    if (value.length <= 9) {
+      setPhone(value);
+    }
+  };
+
+  const formatPhone = (value: string) => {
+    if (value.length <= 3) return value;
+    if (value.length <= 6) return `${value.slice(0, 3)} ${value.slice(3)}`;
+    return `${value.slice(0, 3)} ${value.slice(3, 6)} ${value.slice(6, 9)}`;
+  };
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    
+    // Validate phone number
+    if (phone.length !== 9) {
+      toast({
+        title: "Erro de validação",
+        description: "O telemóvel deve ter exatamente 9 dígitos.",
+        variant: "destructive",
+      });
+      return;
+    }
+
     setIsLoading(true);
 
     const formData = new FormData(e.currentTarget);
@@ -28,7 +53,7 @@ const FinalCTA = () => {
       name: formData.get("name"),
       email: formData.get("email"),
       company: formData.get("company"),
-      phone: formData.get("phone"),
+      phone: phone,
       timestamp: new Date().toISOString(),
     };
 
@@ -92,7 +117,15 @@ const FinalCTA = () => {
                 <Input name="name" placeholder="Nome" className="h-12" required />
                 <Input name="email" type="email" placeholder="E-mail" className="h-12" required />
                 <Input name="company" placeholder="Empresa" className="h-12" required />
-                <Input name="phone" type="tel" placeholder="Telemóvel" className="h-12" required />
+                <Input 
+                  name="phone" 
+                  type="tel" 
+                  placeholder="Telemóvel (9 dígitos)" 
+                  className="h-12" 
+                  value={formatPhone(phone)}
+                  onChange={handlePhoneChange}
+                  required 
+                />
               </div>
               <div className="flex items-start gap-3 mb-6">
                 <Checkbox id="terms" className="mt-1" required />
