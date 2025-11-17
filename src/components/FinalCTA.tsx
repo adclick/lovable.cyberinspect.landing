@@ -35,7 +35,7 @@ const FinalCTA = () => {
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    
+
     // Validate phone number
     if (phone.length !== 9) {
       toast({
@@ -90,7 +90,7 @@ const FinalCTA = () => {
   return (
     <section className="py-24 bg-gradient-hero relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-accent/10 via-transparent to-transparent"></div>
-      
+
       <div className="container relative z-10 mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <Card className="p-8 md:p-12 shadow-2xl border-border">
@@ -103,9 +103,7 @@ const FinalCTA = () => {
                 Oferta válida por tempo limitado
               </div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-foreground">
-                Quero saber mais
-              </h2>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-foreground">Quero saber mais</h2>
               <p className="text-lg text-muted-foreground">
                 Inclui um teste automático de intrusão e relatório com recomendações.
               </p>
@@ -117,23 +115,21 @@ const FinalCTA = () => {
                 <Input name="name" placeholder="Nome" className="h-12" required />
                 <Input name="email" type="email" placeholder="E-mail" className="h-12" required />
                 <Input name="company" placeholder="Empresa" className="h-12" required />
-                <Input 
-                  name="phone" 
-                  type="tel" 
-                  placeholder="Telemóvel (9 dígitos)" 
-                  className="h-12" 
+                <Input
+                  name="phone"
+                  type="tel"
+                  placeholder="Telemóvel"
+                  className="h-12"
                   value={formatPhone(phone)}
                   onChange={handlePhoneChange}
-                  required 
+                  required
                 />
               </div>
               <div className="flex items-start gap-3 mb-6">
                 <Checkbox id="terms" className="mt-1" required />
-                <Label 
-                  htmlFor="terms" 
-                  className="text-sm text-muted-foreground leading-relaxed cursor-pointer"
-                >
-                  Aceito o tratamento destes dados pela NOS para efeitos de envio de comunicações de produtos e serviços e de eventos relacionados com a plataforma CyberInspect.
+                <Label htmlFor="terms" className="text-sm text-muted-foreground leading-relaxed cursor-pointer">
+                  Aceito o tratamento destes dados pela NOS para efeitos de envio de comunicações de produtos e serviços
+                  e de eventos relacionados com a plataforma CyberInspect.
                 </Label>
               </div>
               <Button type="submit" variant="cta" size="xl" className="w-full" disabled={isLoading}>
@@ -159,12 +155,8 @@ const FinalCTA = () => {
 
           {/* Bottom Text */}
           <div className="text-center mt-12">
-            <p className="text-xl font-semibold mb-2">
-              Cibersegurança acessível, simples e ao alcance de todos.
-            </p>
-            <p className="text-muted-foreground">
-              Descubra hoje as vulnerabilidades digitais da sua empresa.
-            </p>
+            <p className="text-xl font-semibold mb-2">Cibersegurança acessível, simples e ao alcance de todos.</p>
+            <p className="text-muted-foreground">Descubra hoje as vulnerabilidades digitais da sua empresa.</p>
           </div>
         </div>
       </div>
