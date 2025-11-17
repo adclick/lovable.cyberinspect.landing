@@ -16,6 +16,18 @@ const Footer = () => {
           </p>
         </div>
 
+        {/* Links */}
+        <div className="flex justify-center items-center mb-8">
+          <a 
+            href="https://cyberinspect.com/cyberinspect/TermsAndConditions" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Termos e Condições
+          </a>
+        </div>
+
         {/* Bottom Bar */}
         <div className="border-t border-border pt-8">
           <div className="flex justify-center items-center">
