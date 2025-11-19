@@ -19,7 +19,7 @@ const Hero = () => {
             
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-foreground">
-                A Plataforma que Capacita Service Providers a <span className="bg-gradient-accent bg-clip-text text-transparent">Escalar a Identificação de Riscos de Cibersegurança</span>
+                A Plataforma que Capacita Service Providers a <span className="bg-gradient-neon bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(0,255,255,0.5)]">Escalar a Identificação de Riscos de Cibersegurança</span>
               </h1>
               
               <p className="text-lg md:text-xl text-muted-foreground max-w-xl">
@@ -68,9 +68,9 @@ const Hero = () => {
             </div>
             
             {/* Floating Badge */}
-            <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-card shadow-card rounded-xl px-6 py-4 border border-border">
+            <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-card shadow-neon rounded-xl px-6 py-4 border border-neonCyan/30">
               <div className="text-center">
-                <p className="text-3xl font-bold text-primary">Parceiros</p>
+                <p className="text-3xl font-bold bg-gradient-neon bg-clip-text text-transparent">Parceiros</p>
                 <p className="text-sm text-muted-foreground">Em todo o país</p>
               </div>
             </div>

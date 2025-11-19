@@ -59,9 +59,9 @@ const Benefits = () => {
             return (
               <Card 
                 key={index}
-                className="p-6 hover:shadow-glow transition-all duration-300 hover:-translate-y-1 border-border"
+                className="p-6 hover:shadow-neon transition-all duration-300 hover:-translate-y-1 border-border hover:border-neonCyan/30"
               >
-                <div className="w-12 h-12 rounded-lg bg-gradient-primary flex items-center justify-center mb-4">
+                <div className="w-12 h-12 rounded-lg bg-gradient-neon flex items-center justify-center mb-4 shadow-neon">
                   <Icon className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">{benefit.title}</h3>
