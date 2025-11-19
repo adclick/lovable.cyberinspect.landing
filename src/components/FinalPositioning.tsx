@@ -7,53 +7,54 @@ const FinalPositioning = () => {
     <section className="py-24 bg-gradient-to-b from-card/30 to-background">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-foreground">
-              A CyberInspect é a Solução de Referência para <span className="bg-gradient-accent bg-clip-text text-transparent">Service Providers</span>
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-foreground tracking-tight leading-tight">
+              A CyberInspect é a Solução de Referência para <span className="bg-gradient-neon bg-clip-text text-transparent">Service Providers</span>
             </h2>
-            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-muted-foreground/90 max-w-3xl mx-auto leading-relaxed">
               Leve a identificação de riscos de cibersegurança ao maior número de organizações, reduzindo a exposição dos seus clientes e ampliando o seu próprio portfólio de serviços.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6 mb-12">
-            <Card className="p-6 text-center hover:shadow-neon transition-all duration-300 hover:border-neonCyan/30">
-              <div className="w-12 h-12 rounded-lg bg-gradient-neon flex items-center justify-center mx-auto mb-4 shadow-neon">
-                <Layers className="w-6 h-6 text-primary-foreground" />
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
+            <Card className="group p-8 text-center hover:shadow-neon transition-all duration-500 hover:-translate-y-2 hover:border-neonCyan/40 bg-gradient-glass backdrop-blur-sm">
+              <div className="w-16 h-16 rounded-2xl bg-gradient-neon flex items-center justify-center mx-auto mb-6 shadow-neon group-hover:scale-110 transition-transform duration-300">
+                <Layers className="w-8 h-8 text-primary-foreground" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Simplicidade</h3>
-              <p className="text-muted-foreground">
+              <h3 className="text-xl font-semibold mb-3 tracking-tight">Simplicidade</h3>
+              <p className="text-muted-foreground/90 leading-relaxed">
                 Interface intuitiva e processos otimizados para máxima eficiência operacional
               </p>
             </Card>
 
-            <Card className="p-6 text-center hover:shadow-neon transition-all duration-300 hover:border-neonCyan/30">
-              <div className="w-12 h-12 rounded-lg bg-gradient-neon flex items-center justify-center mx-auto mb-4 shadow-neon">
-                <Shield className="w-6 h-6 text-primary-foreground" />
+            <Card className="group p-8 text-center hover:shadow-neon transition-all duration-500 hover:-translate-y-2 hover:border-neonCyan/40 bg-gradient-glass backdrop-blur-sm">
+              <div className="w-16 h-16 rounded-2xl bg-gradient-neon flex items-center justify-center mx-auto mb-6 shadow-neon group-hover:scale-110 transition-transform duration-300">
+                <Shield className="w-8 h-8 text-primary-foreground" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Robustez Técnica</h3>
-              <p className="text-muted-foreground">
+              <h3 className="text-xl font-semibold mb-3 tracking-tight">Robustez Técnica</h3>
+              <p className="text-muted-foreground/90 leading-relaxed">
                 Plataforma sólida com metodologias comprovadas e tecnologias de ponta
               </p>
             </Card>
 
-            <Card className="p-6 text-center hover:shadow-neon transition-all duration-300 hover:border-neonCyan/30">
-              <div className="w-12 h-12 rounded-lg bg-gradient-neon flex items-center justify-center mx-auto mb-4 shadow-neon">
-                <TrendingUp className="w-6 h-6 text-primary-foreground" />
+            <Card className="group p-8 text-center hover:shadow-neon transition-all duration-500 hover:-translate-y-2 hover:border-neonCyan/40 bg-gradient-glass backdrop-blur-sm">
+              <div className="w-16 h-16 rounded-2xl bg-gradient-neon flex items-center justify-center mx-auto mb-6 shadow-neon group-hover:scale-110 transition-transform duration-300">
+                <TrendingUp className="w-8 h-8 text-primary-foreground" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Valor Adicional</h3>
-              <p className="text-muted-foreground">
+              <h3 className="text-xl font-semibold mb-3 tracking-tight">Valor Adicional</h3>
+              <p className="text-muted-foreground/90 leading-relaxed">
                 Transforme avaliações de risco em novos fluxos de receita consistentes
               </p>
             </Card>
           </div>
 
-          <div className="bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl p-8 border border-accent/20 shadow-card">
-            <div className="text-center max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">
+          <div className="bg-gradient-glass backdrop-blur-xl rounded-3xl p-10 border border-neonCyan/30 shadow-neon relative overflow-hidden">
+            <div className="absolute inset-0 bg-gradient-neon opacity-5"></div>
+            <div className="relative text-center max-w-2xl mx-auto">
+              <h3 className="text-2xl md:text-3xl font-bold mb-5 tracking-tight">
                 Explore uma Oportunidade de Mercado em Rápido Crescimento
               </h3>
-              <p className="text-lg text-muted-foreground mb-6">
+              <p className="text-lg text-muted-foreground/90 mb-8 leading-relaxed">
                 Com uma combinação única de simplicidade, robustez técnica e geração de valor adicional, a CyberInspect permite aos Parceiros explorar uma oportunidade de mercado em rápido crescimento e transformar avaliações de risco em novos fluxos de receita.
               </p>
               <Button variant="cta" size="xl" className="group" asChild>
