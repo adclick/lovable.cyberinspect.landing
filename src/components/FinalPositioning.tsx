@@ -17,8 +17,8 @@ const FinalPositioning = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 mb-12">
-            <Card className="p-6 text-center hover:shadow-glow transition-all duration-300">
-              <div className="w-12 h-12 rounded-lg bg-gradient-primary flex items-center justify-center mx-auto mb-4">
+            <Card className="p-6 text-center hover:shadow-neon transition-all duration-300 hover:border-neonCyan/30">
+              <div className="w-12 h-12 rounded-lg bg-gradient-neon flex items-center justify-center mx-auto mb-4 shadow-neon">
                 <Layers className="w-6 h-6 text-primary-foreground" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Simplicidade</h3>
@@ -27,8 +27,8 @@ const FinalPositioning = () => {
               </p>
             </Card>
 
-            <Card className="p-6 text-center hover:shadow-glow transition-all duration-300">
-              <div className="w-12 h-12 rounded-lg bg-gradient-primary flex items-center justify-center mx-auto mb-4">
+            <Card className="p-6 text-center hover:shadow-neon transition-all duration-300 hover:border-neonCyan/30">
+              <div className="w-12 h-12 rounded-lg bg-gradient-neon flex items-center justify-center mx-auto mb-4 shadow-neon">
                 <Shield className="w-6 h-6 text-primary-foreground" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Robustez Técnica</h3>
@@ -37,8 +37,8 @@ const FinalPositioning = () => {
               </p>
             </Card>
 
-            <Card className="p-6 text-center hover:shadow-glow transition-all duration-300">
-              <div className="w-12 h-12 rounded-lg bg-gradient-primary flex items-center justify-center mx-auto mb-4">
+            <Card className="p-6 text-center hover:shadow-neon transition-all duration-300 hover:border-neonCyan/30">
+              <div className="w-12 h-12 rounded-lg bg-gradient-neon flex items-center justify-center mx-auto mb-4 shadow-neon">
                 <TrendingUp className="w-6 h-6 text-primary-foreground" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Valor Adicional</h3>
