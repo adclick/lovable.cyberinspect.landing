@@ -45,10 +45,10 @@ const Benefits = () => {
     <section id="beneficios" className="py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-foreground">
-            Proposta de Valor para <span className="text-secondary">Service Providers</span>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-foreground tracking-tight">
+            Proposta de Valor para <span className="bg-gradient-neon bg-clip-text text-transparent">Service Providers</span>
           </h2>
-          <p className="text-lg text-muted-foreground">
+          <p className="text-lg text-muted-foreground/90 leading-relaxed">
             Tudo o que precisa para escalar o seu negócio de cibersegurança
           </p>
         </div>
@@ -59,13 +59,13 @@ const Benefits = () => {
             return (
               <Card 
                 key={index}
-                className="p-6 hover:shadow-neon transition-all duration-300 hover:-translate-y-1 border-border hover:border-neonCyan/30"
+                className="group p-8 hover:shadow-neon transition-all duration-500 hover:-translate-y-2 border-border hover:border-neonCyan/40 bg-gradient-glass backdrop-blur-sm"
               >
-                <div className="w-12 h-12 rounded-lg bg-gradient-neon flex items-center justify-center mb-4 shadow-neon">
-                  <Icon className="w-6 h-6 text-primary-foreground" />
+                <div className="w-14 h-14 rounded-xl bg-gradient-neon flex items-center justify-center mb-6 shadow-neon group-hover:scale-110 transition-transform duration-300">
+                  <Icon className="w-7 h-7 text-primary-foreground" />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">{benefit.title}</h3>
-                <p className="text-muted-foreground">{benefit.description}</p>
+                <h3 className="text-xl font-semibold mb-3 tracking-tight">{benefit.title}</h3>
+                <p className="text-muted-foreground/90 leading-relaxed">{benefit.description}</p>
               </Card>
             );
           })}
