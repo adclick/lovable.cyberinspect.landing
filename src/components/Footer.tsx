@@ -1,6 +1,8 @@
 import { Shield } from "lucide-react";
 import logo from "@/assets/cyberinspect-logo.png";
 import footerLogos from "@/assets/footer-logos.png";
+import iso27001Badge from "@/assets/iso-27001-badge.png";
+import rgpdBadge from "@/assets/rgpd-badge.png";
 
 const Footer = () => {
   return (
@@ -15,6 +17,20 @@ const Footer = () => {
           <p className="text-muted-foreground text-sm">
             Uma marca NOS
           </p>
+        </div>
+
+        {/* Certification Badges */}
+        <div className="flex justify-center items-center gap-8 mb-8">
+          <img 
+            src={iso27001Badge} 
+            alt="ISO 27001 Certified" 
+            className="h-16 w-auto opacity-90 hover:opacity-100 transition-opacity"
+          />
+          <img 
+            src={rgpdBadge} 
+            alt="RGPD Compliant" 
+            className="h-16 w-auto opacity-90 hover:opacity-100 transition-opacity"
+          />
         </div>
 
         {/* Links */}
