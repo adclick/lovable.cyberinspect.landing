@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Layers, TrendingUp, DollarSign, Target, Zap, MessageSquare, Users } from "lucide-react";
+import { Layers, TrendingUp, Target, Zap, MessageSquare, Users } from "lucide-react";
 
 const benefits = [
   {
@@ -12,11 +12,6 @@ const benefits = [
     icon: TrendingUp,
     title: "Evolução Contínua da Oferta",
     description: "A plataforma cresce contigo. Integra novas capacidades, metodologias e tecnologias para que os Parceiros se mantenham sempre à frente das necessidades do mercado.",
-  },
-  {
-    icon: DollarSign,
-    title: "Custos Mais Competitivos e Autonomia de Pricing",
-    description: "Ao consolidar fornecedores e serviços num único ecossistema, a CyberInspect permite reduzir custos face à compra direta e oferece liberdade total para definir margens e modelos comerciais.",
   },
   {
     icon: Target,
