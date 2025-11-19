@@ -65,6 +65,7 @@ export default {
 				'gradient-neon': 'var(--gradient-neon)',
 				'gradient-hero': 'var(--gradient-hero)',
 				'gradient-glass': 'var(--gradient-glass)',
+				'gradient-orange': 'var(--gradient-orange)',
 			},
 			boxShadow: {
 				'glow': 'var(--shadow-glow)',
