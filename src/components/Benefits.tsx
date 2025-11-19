@@ -11,7 +11,7 @@ const benefits = [
   {
     icon: TrendingUp,
     title: "Evolução Contínua da Oferta",
-    description: "A plataforma cresce contigo. Integra novas capacidades, metodologias e tecnologias para que os Parceiros se mantenham sempre à frente das necessidades do mercado.",
+    description: "A plataforma cresce consigo. Integra novas capacidades, metodologias e tecnologias para que se mantenha sempre à frente das necessidades do mercado.",
   },
   {
     icon: Target,

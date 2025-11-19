@@ -33,6 +33,21 @@ const Footer = () => {
           />
         </div>
 
+        {/* Client Direct Service */}
+        <div className="flex justify-center mb-8">
+          <p className="text-sm text-muted-foreground/70 text-center max-w-md">
+            Também realizamos avaliações de cibersegurança diretamente para empresas.{" "}
+            <a 
+              href="https://cyberinspect.com/cyberinspect/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-neonCyan/80 hover:text-neonCyan transition-colors underline"
+            >
+              Entre em contacto com a nossa equipa aqui
+            </a>
+          </p>
+        </div>
+
         {/* Links */}
         <div className="flex justify-center items-center mb-8">
           <a 

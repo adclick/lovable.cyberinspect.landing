@@ -24,7 +24,7 @@ const Hero = () => {
               </h1>
               
               <p className="text-lg md:text-xl text-muted-foreground/90 max-w-xl leading-relaxed">
-                Uma solução integrada que simplifica a entrega, reduz custos e desbloqueia novas oportunidades de serviço.
+                Aumente margens, acelere entregas e responda à procura crescente de testes de cibersegurança <span className="text-neonCyan/90">(incluindo a diretiva NIS2)</span>.
               </p>
             </div>
 

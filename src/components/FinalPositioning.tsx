@@ -55,7 +55,7 @@ const FinalPositioning = () => {
                 Explore uma Oportunidade de Mercado em Rápido Crescimento
               </h3>
               <p className="text-lg text-muted-foreground/90 mb-8 leading-relaxed">
-                Com uma combinação única de simplicidade, robustez técnica e geração de valor adicional, a CyberInspect permite aos Parceiros explorar uma oportunidade de mercado em rápido crescimento e transformar avaliações de risco em novos fluxos de receita.
+                A procura por testes de cibersegurança aumentou significativamente, especialmente com a NIS2. A CyberInspect permite-lhe captar essa procura rapidamente, entregar mais valor aos seus clientes e abrir novos fluxos de receita.
               </p>
               <Button variant="cta" size="xl" className="group" asChild>
                 <a href="#form">
