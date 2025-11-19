@@ -2,10 +2,7 @@ import { Helmet } from "react-helmet";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Benefits from "@/components/Benefits";
-import HowItWorks from "@/components/HowItWorks";
-import SocialProof from "@/components/SocialProof";
-import Educational from "@/components/Educational";
-import DiagnosticIncludes from "@/components/DiagnosticIncludes";
+import FinalPositioning from "@/components/FinalPositioning";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 import StickyMobileCTA from "@/components/StickyMobileCTA";
@@ -14,34 +11,31 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>CyberInspect - Proteja a sua empresa. Teste o seu site gratuitamente.</title>
+        <title>CyberInspect - Plataforma para Service Providers de Cibersegurança</title>
         <meta 
           name="description" 
-          content="Descubra vulnerabilidades digitais em minutos e receba um diagnóstico inicial gratuito. Marca do Grupo NOS com certificação ISO 27001." 
+          content="A plataforma que capacita Service Providers a escalar a identificação de riscos de cibersegurança. Solução integrada, custos competitivos e geração de leads qualificadas." 
         />
-        <meta name="keywords" content="cibersegurança, teste de segurança, vulnerabilidades, diagnóstico gratuito, ISO 27001" />
+        <meta name="keywords" content="service providers, cibersegurança, plataforma, leads qualificadas, avaliação de riscos" />
         <link rel="canonical" href="https://cyberinspect.pt" />
         
         {/* Open Graph */}
-        <meta property="og:title" content="CyberInspect - Proteja a sua empresa" />
-        <meta property="og:description" content="Descubra vulnerabilidades digitais em minutos. Diagnóstico gratuito." />
+        <meta property="og:title" content="CyberInspect - Plataforma para Service Providers" />
+        <meta property="og:description" content="Capacite o seu negócio de cibersegurança com uma plataforma integrada, escalável e geradora de valor." />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/og-image.jpg" />
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="CyberInspect - Proteja a sua empresa" />
-        <meta name="twitter:description" content="Descubra vulnerabilidades digitais em minutos. Diagnóstico gratuito." />
+        <meta name="twitter:title" content="CyberInspect - Plataforma para Service Providers" />
+        <meta name="twitter:description" content="Capacite o seu negócio de cibersegurança com uma plataforma integrada, escalável e geradora de valor." />
       </Helmet>
 
       <Header />
       <main>
         <Hero />
         <Benefits />
-        <HowItWorks />
-        <SocialProof />
-        <Educational />
-        <DiagnosticIncludes />
+        <FinalPositioning />
         <FinalCTA />
         <Footer />
         <StickyMobileCTA />

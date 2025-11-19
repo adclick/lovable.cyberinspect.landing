@@ -3,15 +3,15 @@ import { Input } from "@/components/ui/input";
 import { Card } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
-import { CheckCircle2, Clock, FileText, CreditCard } from "lucide-react";
+import { CheckCircle2, Clock, FileText } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { FormEvent, useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
 const features = [
-  { icon: CreditCard, text: "Sem cartão de crédito" },
-  { icon: Clock, text: "Resultado em 24h" },
-  { icon: FileText, text: "Relatório simples e acionável" },
+  { icon: CheckCircle2, text: "Acesso completo à plataforma" },
+  { icon: Clock, text: "Suporte dedicado" },
+  { icon: FileText, text: "Materiais de comunicação incluídos" },
 ];
 
 const FinalCTA = () => {
@@ -100,12 +100,12 @@ const FinalCTA = () => {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-accent"></span>
                 </span>
-                Oferta válida por tempo limitado
+                Programa de Parceria
               </div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-foreground">Quero saber mais</h2>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-foreground">Torne-se um Parceiro CyberInspect</h2>
               <p className="text-lg text-muted-foreground">
-                Inclui um teste automático de intrusão e relatório com recomendações.
+                Preencha o formulário e a nossa equipa entrará em contacto para apresentar as condições de parceria.
               </p>
             </div>
 
@@ -133,7 +133,7 @@ const FinalCTA = () => {
                 </Label>
               </div>
               <Button type="submit" variant="cta" size="xl" className="w-full" disabled={isLoading}>
-                {isLoading ? "Enviando..." : "Pedir Diagnóstico Gratuito Agora"}
+                {isLoading ? "A enviar..." : "Solicitar Informações"}
               </Button>
             </form>
 
@@ -155,8 +155,8 @@ const FinalCTA = () => {
 
           {/* Bottom Text */}
           <div className="text-center mt-12">
-            <p className="text-xl font-semibold mb-2">Cibersegurança acessível, simples e ao alcance de todos.</p>
-            <p className="text-muted-foreground">Descubra hoje as vulnerabilidades digitais da sua empresa.</p>
+            <p className="text-xl font-semibold mb-2">Escale o seu negócio de cibersegurança com a CyberInspect</p>
+            <p className="text-muted-foreground">Uma plataforma completa para Service Providers que querem crescer.</p>
           </div>
         </div>
       </div>
