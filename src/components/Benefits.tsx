@@ -9,16 +9,6 @@ const benefits = [
     description: "A CyberInspect reúne, numa única plataforma, os serviços essenciais para avaliação de riscos de cibersegurança, permitindo uma oferta completa, tecnicamente sólida e de fácil operacionalização.",
   },
   {
-    icon: TrendingUp,
-    title: "Evolução Contínua da Oferta",
-    description: "A plataforma cresce consigo. Integra novas capacidades, metodologias e tecnologias para que se mantenha sempre à frente das necessidades do mercado.",
-  },
-  {
-    icon: Target,
-    title: "Geração de Leads Altamente Qualificadas",
-    description: "Os resultados das avaliações originam leads de remediação extremamente qualificadas, facilitando a criação de novas oportunidades em serviços complementares.",
-  },
-  {
     icon: Zap,
     title: "Formato Simples, Produtivo e Escalável",
     description: "A experiência de utilização é pensada para maximizar produtividade, permitindo aos Service Providers abranger mais clientes sem aumentar equipas ou processos.",
@@ -54,7 +44,7 @@ const Benefits = () => {
             return (
               <Card 
                 key={index}
-                className="group p-8 hover:shadow-neon transition-all duration-500 hover:-translate-y-2 border-border hover:border-neonCyan/40 bg-gradient-glass backdrop-blur-sm"
+                className="group p-8 hover:shadow-neon transition-all duration-500 hover:-translate-y-2 border-border hover:border-neonMagenta/40 bg-gradient-glass backdrop-blur-sm"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-neon flex items-center justify-center mb-6 shadow-neon group-hover:scale-110 transition-transform duration-300">
                   <Icon className="w-7 h-7 text-primary-foreground" />
