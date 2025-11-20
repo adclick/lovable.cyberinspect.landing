@@ -5,9 +5,6 @@ import heroImage from "@/assets/remote-work.png";
 const Hero = () => {
   return (
     <section className="relative min-h-[90vh] flex items-center bg-gradient-hero overflow-hidden pt-20">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-secondary/30 via-transparent to-transparent"></div>
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-neonCyan/15 via-transparent to-transparent"></div>
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-transparent via-transparent to-background/50"></div>
       
       <div className="container relative z-10 mx-auto px-4 py-12">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -20,7 +17,7 @@ const Hero = () => {
             
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] text-foreground">
-                A Plataforma que Capacita Service Providers a <span className="bg-gradient-orange bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(255,140,0,0.5)] animate-pulse">Escalar a Identificação de Riscos de Cibersegurança</span>
+                A Plataforma que Capacita Service Providers a <span className="bg-gradient-orange bg-clip-text text-transparent">Escalar a Identificação de Riscos de Cibersegurança</span>
               </h1>
               
               <p className="text-lg md:text-xl text-muted-foreground/90 max-w-xl leading-relaxed">
