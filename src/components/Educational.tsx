@@ -57,7 +57,7 @@ const Educational = () => {
                 <Shield className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-3">Cumprir a NIS2 começa por saber onde estão as vulnerabilidades</h3>
+                <h3 className="text-xl font-semibold mb-3">Cumprir a <span className="font-bold bg-gradient-cta bg-clip-text text-transparent">NIS2</span> começa por saber onde estão as vulnerabilidades</h3>
                 <p className="text-muted-foreground">
                   Não espere ser vítima de um ataque. A prevenção é sempre mais barata que a recuperação. 
                   Com o diagnóstico gratuito da CyberInspect, descobre vulnerabilidades antes que sejam exploradas.
