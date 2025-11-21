@@ -41,8 +41,10 @@ const Educational = () => {
               const Icon = stat.icon;
               return (
                 <Card key={index} className="p-6 text-center hover:shadow-card transition-all duration-300">
-                  <Icon className={`w-12 h-12 mx-auto mb-4 ${stat.color}`} />
-                  <p className={`text-4xl font-bold mb-2 ${stat.color}`}>{stat.value}</p>
+                  <div className="w-12 h-12 rounded-xl bg-gradient-cta flex items-center justify-center mx-auto mb-4">
+                    <Icon className="w-7 h-7 text-white" />
+                  </div>
+                  <p className="text-4xl font-bold mb-2 bg-gradient-cta bg-clip-text text-transparent">{stat.value}</p>
                   <p className="text-muted-foreground">{stat.label}</p>
                 </Card>
               );
@@ -51,8 +53,8 @@ const Educational = () => {
 
           <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl border border-accent/20 shadow-card">
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-lg bg-accent/20 flex items-center justify-center flex-shrink-0">
-                <Shield className="w-6 h-6 text-accent" />
+              <div className="w-12 h-12 rounded-lg bg-gradient-cta flex items-center justify-center flex-shrink-0">
+                <Shield className="w-6 h-6 text-white" />
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-3">Cumprir a NIS2 começa por saber onde estão as vulnerabilidades</h3>

@@ -46,8 +46,8 @@ const Benefits = () => {
                 key={index}
                 className="group p-8 hover:shadow-neon transition-all duration-500 hover:-translate-y-2 border-border hover:border-neonMagenta/40 bg-gradient-glass backdrop-blur-sm"
               >
-                <div className="w-14 h-14 rounded-xl bg-gradient-neon flex items-center justify-center mb-6 shadow-neon group-hover:scale-110 transition-transform duration-300">
-                  <Icon className="w-7 h-7 text-primary-foreground" />
+                <div className="w-14 h-14 rounded-xl bg-gradient-cta flex items-center justify-center mb-6 shadow-cta group-hover:scale-110 transition-transform duration-300">
+                  <Icon className="w-7 h-7 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3 tracking-tight">{benefit.title}</h3>
                 <p className="text-muted-foreground/90 leading-relaxed">{benefit.description}</p>

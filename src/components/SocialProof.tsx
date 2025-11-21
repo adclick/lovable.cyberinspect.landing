@@ -50,11 +50,11 @@ const SocialProof = () => {
             <Card key={index} className="p-6 hover:shadow-card transition-all duration-300">
               <div className="flex items-center gap-1 mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-accent text-accent" />
+                  <Star key={i} className="w-4 h-4 fill-neonOrange text-neonOrange" />
                 ))}
               </div>
               
-              <Quote className="w-8 h-8 text-accent/20 mb-3" />
+              <Quote className="w-8 h-8 text-neonOrange/30 mb-3" />
               
               <p className="text-muted-foreground mb-4 italic">{testimonial.content}</p>
               
