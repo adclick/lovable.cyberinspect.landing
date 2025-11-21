@@ -17,9 +17,9 @@ const FinalPositioning = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-16">
-            <Card className="group p-8 text-center hover:shadow-neon transition-all duration-500 hover:-translate-y-2 hover:border-neonCyan/40 bg-gradient-glass backdrop-blur-sm">
-              <div className="w-16 h-16 rounded-2xl bg-gradient-neon flex items-center justify-center mx-auto mb-6 shadow-neon group-hover:scale-110 transition-transform duration-300">
-                <Layers className="w-8 h-8 text-primary-foreground" />
+            <Card className="group p-8 text-center hover:shadow-cta transition-all duration-500 hover:-translate-y-2 hover:border-neonOrange/40 bg-gradient-glass backdrop-blur-sm">
+              <div className="w-16 h-16 rounded-2xl bg-gradient-cta flex items-center justify-center mx-auto mb-6 shadow-cta group-hover:scale-110 transition-transform duration-300">
+                <Layers className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold mb-3 tracking-tight">Simplicidade</h3>
               <p className="text-muted-foreground/90 leading-relaxed">
@@ -27,9 +27,9 @@ const FinalPositioning = () => {
               </p>
             </Card>
 
-            <Card className="group p-8 text-center hover:shadow-neon transition-all duration-500 hover:-translate-y-2 hover:border-neonCyan/40 bg-gradient-glass backdrop-blur-sm">
-              <div className="w-16 h-16 rounded-2xl bg-gradient-neon flex items-center justify-center mx-auto mb-6 shadow-neon group-hover:scale-110 transition-transform duration-300">
-                <Shield className="w-8 h-8 text-primary-foreground" />
+            <Card className="group p-8 text-center hover:shadow-cta transition-all duration-500 hover:-translate-y-2 hover:border-neonOrange/40 bg-gradient-glass backdrop-blur-sm">
+              <div className="w-16 h-16 rounded-2xl bg-gradient-cta flex items-center justify-center mx-auto mb-6 shadow-cta group-hover:scale-110 transition-transform duration-300">
+                <Shield className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold mb-3 tracking-tight">Robustez Técnica</h3>
               <p className="text-muted-foreground/90 leading-relaxed">
@@ -37,9 +37,9 @@ const FinalPositioning = () => {
               </p>
             </Card>
 
-            <Card className="group p-8 text-center hover:shadow-neon transition-all duration-500 hover:-translate-y-2 hover:border-neonCyan/40 bg-gradient-glass backdrop-blur-sm">
-              <div className="w-16 h-16 rounded-2xl bg-gradient-neon flex items-center justify-center mx-auto mb-6 shadow-neon group-hover:scale-110 transition-transform duration-300">
-                <TrendingUp className="w-8 h-8 text-primary-foreground" />
+            <Card className="group p-8 text-center hover:shadow-cta transition-all duration-500 hover:-translate-y-2 hover:border-neonOrange/40 bg-gradient-glass backdrop-blur-sm">
+              <div className="w-16 h-16 rounded-2xl bg-gradient-cta flex items-center justify-center mx-auto mb-6 shadow-cta group-hover:scale-110 transition-transform duration-300">
+                <TrendingUp className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold mb-3 tracking-tight">Valor Adicional</h3>
               <p className="text-muted-foreground/90 leading-relaxed">

@@ -143,8 +143,8 @@ const FinalCTA = () => {
                 const Icon = feature.icon;
                 return (
                   <div key={index} className="flex items-center gap-2">
-                    <div className="w-8 h-8 rounded-full bg-success/10 flex items-center justify-center">
-                      <Icon className="w-4 h-4 text-success" />
+                    <div className="w-8 h-8 rounded-full bg-gradient-cta flex items-center justify-center">
+                      <Icon className="w-4 h-4 text-white" />
                     </div>
                     <span className="text-sm text-muted-foreground">{feature.text}</span>
                   </div>

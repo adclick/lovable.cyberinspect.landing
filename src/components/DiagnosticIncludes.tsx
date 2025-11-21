@@ -47,8 +47,8 @@ const DiagnosticIncludes = () => {
                   className="p-6 hover:shadow-glow transition-all duration-300 hover:-translate-y-1"
                 >
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 rounded-lg bg-gradient-primary flex items-center justify-center flex-shrink-0">
-                      <Icon className="w-6 h-6 text-primary-foreground" />
+                    <div className="w-12 h-12 rounded-lg bg-gradient-cta flex items-center justify-center flex-shrink-0 shadow-cta">
+                      <Icon className="w-6 h-6 text-white" />
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold mb-2">{item.title}</h3>

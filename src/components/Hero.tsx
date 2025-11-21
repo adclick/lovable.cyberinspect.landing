@@ -40,15 +40,21 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-6 pt-4">
             <div className="flex items-center gap-2 text-sm">
-              <CheckCircle2 className="w-5 h-5 text-success" />
+              <div className="w-5 h-5 rounded-full bg-gradient-cta flex items-center justify-center">
+                <CheckCircle2 className="w-3.5 h-3.5 text-white" />
+              </div>
               <span className="text-muted-foreground">Custos Competitivos</span>
             </div>
             <div className="flex items-center gap-2 text-sm">
-              <CheckCircle2 className="w-5 h-5 text-success" />
+              <div className="w-5 h-5 rounded-full bg-gradient-cta flex items-center justify-center">
+                <CheckCircle2 className="w-3.5 h-3.5 text-white" />
+              </div>
               <span className="text-muted-foreground">Leads Qualificadas</span>
             </div>
             <div className="flex items-center gap-2 text-sm">
-              <CheckCircle2 className="w-5 h-5 text-success" />
+              <div className="w-5 h-5 rounded-full bg-gradient-cta flex items-center justify-center">
+                <CheckCircle2 className="w-3.5 h-3.5 text-white" />
+              </div>
               <span className="text-muted-foreground">Escalável e Produtivo</span>
             </div>
             </div>

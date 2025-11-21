@@ -42,8 +42,8 @@ const HowItWorks = () => {
               <Card key={index} className="p-6 border-l-4 border-l-accent hover:shadow-card transition-all duration-300">
                 <div className="flex gap-4">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 rounded-full bg-gradient-primary flex items-center justify-center">
-                      <span className="text-xl font-bold text-primary-foreground">{step.number}</span>
+                    <div className="w-12 h-12 rounded-full bg-gradient-cta flex items-center justify-center shadow-cta">
+                      <span className="text-xl font-bold text-white">{step.number}</span>
                     </div>
                   </div>
                   <div>
