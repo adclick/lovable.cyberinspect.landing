@@ -17,7 +17,7 @@ const Hero = () => {
             
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] text-foreground">
-                A Plataforma que Capacita Service Providers a <span className="bg-gradient-orange bg-clip-text text-transparent">Escalar a Identificação de Riscos de Cibersegurança</span>
+                A Plataforma que capacita Service Providers a <span className="bg-gradient-orange bg-clip-text text-transparent">escalar a identificação de riscos de cibersegurança</span>
               </h1>
               
               <p className="text-lg md:text-xl text-muted-foreground/90 max-w-xl leading-relaxed">
