@@ -15,7 +15,7 @@ const benefits = [
   },
   {
     icon: MessageSquare,
-    title: "Suporte de Comunicação e Market Intelligence",
+    title: "Suporte de comunicação e market intelligence",
     description: "A CyberInspect disponibiliza insights acionáveis, materiais de comunicação e análises que reforçam o posicionamento comercial dos Parceiros.",
   },
   {
