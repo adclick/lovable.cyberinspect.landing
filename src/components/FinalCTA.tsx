@@ -7,32 +7,34 @@ import { CheckCircle2, Clock, FileText } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { FormEvent, useState } from "react";
 import { useToast } from "@/hooks/use-toast";
-
-const features = [
-  { icon: CheckCircle2, text: "Acesso completo à plataforma" },
-  { icon: Clock, text: "Suporte dedicado" },
-  { icon: FileText, text: "Materiais de comunicação incluídos" },
-];
-
+const features = [{
+  icon: CheckCircle2,
+  text: "Acesso completo à plataforma"
+}, {
+  icon: Clock,
+  text: "Suporte dedicado"
+}, {
+  icon: FileText,
+  text: "Materiais de comunicação incluídos"
+}];
 const FinalCTA = () => {
   const navigate = useNavigate();
-  const { toast } = useToast();
+  const {
+    toast
+  } = useToast();
   const [isLoading, setIsLoading] = useState(false);
   const [phone, setPhone] = useState("");
-
   const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value.replace(/\D/g, ""); // Remove non-digits
     if (value.length <= 9) {
       setPhone(value);
     }
   };
-
   const formatPhone = (value: string) => {
     if (value.length <= 3) return value;
     if (value.length <= 6) return `${value.slice(0, 3)} ${value.slice(3)}`;
     return `${value.slice(0, 3)} ${value.slice(3, 6)} ${value.slice(6, 9)}`;
   };
-
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
@@ -41,38 +43,34 @@ const FinalCTA = () => {
       toast({
         title: "Erro de validação",
         description: "O telemóvel deve ter exatamente 9 dígitos.",
-        variant: "destructive",
+        variant: "destructive"
       });
       return;
     }
-
     setIsLoading(true);
-
     const formData = new FormData(e.currentTarget);
     const data = {
       name: formData.get("name"),
       email: formData.get("email"),
       company: formData.get("company"),
       phone: phone,
-      timestamp: new Date().toISOString(),
+      timestamp: new Date().toISOString()
     };
-
     try {
       const response = await fetch("https://hook.eu1.make.com/nd2gu54lcpod5mfsq18cuoijk8dpi91a", {
         method: "POST",
         headers: {
-          "Content-Type": "application/json",
+          "Content-Type": "application/json"
         },
-        body: JSON.stringify(data),
+        body: JSON.stringify(data)
       });
-
       if (response.ok) {
         navigate("/obrigado");
       } else {
         toast({
           title: "Erro ao enviar",
           description: "Por favor, tente novamente.",
-          variant: "destructive",
+          variant: "destructive"
         });
       }
     } catch (error) {
@@ -80,15 +78,13 @@ const FinalCTA = () => {
       toast({
         title: "Erro ao enviar",
         description: "Por favor, tente novamente.",
-        variant: "destructive",
+        variant: "destructive"
       });
     } finally {
       setIsLoading(false);
     }
   };
-
-  return (
-    <section className="py-24 bg-gradient-hero relative overflow-hidden">
+  return <section className="py-24 bg-gradient-hero relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-accent/10 via-transparent to-transparent"></div>
 
       <div className="container relative z-10 mx-auto px-4">
@@ -103,7 +99,7 @@ const FinalCTA = () => {
                 Programa de Parceria
               </div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-foreground">Torne-se um Parceiro CyberInspect</h2>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-foreground">Torne-se um parceiro CyberInspect</h2>
               <p className="text-lg text-muted-foreground">
                 Preencha o formulário e a nossa equipa entrará em contacto para apresentar as condições de parceria.
               </p>
@@ -115,15 +111,7 @@ const FinalCTA = () => {
                 <Input name="name" placeholder="Nome" className="h-12" required />
                 <Input name="email" type="email" placeholder="E-mail" className="h-12" required />
                 <Input name="company" placeholder="Empresa" className="h-12" required />
-                <Input
-                  name="phone"
-                  type="tel"
-                  placeholder="Telemóvel"
-                  className="h-12"
-                  value={formatPhone(phone)}
-                  onChange={handlePhoneChange}
-                  required
-                />
+                <Input name="phone" type="tel" placeholder="Telemóvel" className="h-12" value={formatPhone(phone)} onChange={handlePhoneChange} required />
               </div>
               <div className="flex items-start gap-3 mb-6">
                 <Checkbox id="terms" className="mt-1" required />
@@ -140,16 +128,14 @@ const FinalCTA = () => {
             {/* Features */}
             <div className="flex flex-wrap justify-center gap-6">
               {features.map((feature, index) => {
-                const Icon = feature.icon;
-                return (
-                  <div key={index} className="flex items-center gap-2">
+              const Icon = feature.icon;
+              return <div key={index} className="flex items-center gap-2">
                     <div className="w-8 h-8 rounded-full bg-gradient-cta flex items-center justify-center">
                       <Icon className="w-4 h-4 text-white" />
                     </div>
                     <span className="text-sm text-muted-foreground">{feature.text}</span>
-                  </div>
-                );
-              })}
+                  </div>;
+            })}
             </div>
           </Card>
 
@@ -160,8 +146,6 @@ const FinalCTA = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default FinalCTA;
