@@ -1,88 +1,64 @@
 import { Card } from "@/components/ui/card";
-import { Quote, Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "João Silva",
+    name: "Pedro Caetano",
+    role: "Executive Director",
+    company: "Bridge351",
+    content: "Saber que nos colocámos à prova com a Cyberinspect foi ter a certeza de que estávamos a colocar a segurança do nosso negócio nas mãos certas, com uma visão 360º na identificação de riscos. Tudo de forma simples e intuitiva, mas, ao mesmo tempo, muito detalhada e com uma indicação clara do caminho a seguir.",
+    logo: "bridge351",
+  },
+  {
+    name: "Luís Gerardi",
     role: "CEO",
-    company: "TechStart Lisboa",
-    content: "A CyberInspect ajudou-nos a identificar vulnerabilidades críticas que desconhecíamos. O apoio da equipa foi excepcional.",
-    rating: 5,
+    company: "ErgosTek",
+    content: "Uma plataforma excepcional que automatiza análises de cibersegurança, otimizando processos e fornecendo relatórios detalhados que facilitam a resolução de problemas identificados.",
+    logo: "ergostek",
   },
   {
-    name: "Maria Santos",
-    role: "Diretora de TI",
-    company: "RetailPro",
-    content: "Plataforma intuitiva e relatórios muito claros. Essencial para qualquer PME que leve a segurança a sério.",
-    rating: 5,
+    name: "Rodrigo Trépa",
+    role: "Head of Product and Marketing",
+    company: "Wegho",
+    content: "A plataforma de testes de cibersegurança da CyberInspect superou as nossas expectativas! Intuitiva, robusta, e com um suporte e follow-up técnico essencial. Proporcionou-nos insights valiosos para garantir uma proteção adequada dos nossos sistemas. Uma ferramenta que recomendamos para empresas que valorizam segurança digital e precisam de um apoio profissional nesta matéria. Parabéns!",
+    logo: "wegho",
   },
-  {
-    name: "Pedro Costa",
-    role: "Founder",
-    company: "DigitalAgency",
-    content: "O diagnóstico gratuito foi revelador. Investir em cibersegurança deixou de ser uma opção, é uma necessidade.",
-    rating: 5,
-  },
-];
-
-const partners = [
-  { name: "NOS", color: "text-primary" },
-  { name: "PME Líder", color: "text-muted-foreground" },
-  { name: "ISO 27001", color: "text-success" },
 ];
 
 const SocialProof = () => {
   return (
-    <section id="testemunhos" className="py-24 bg-background">
+    <section id="testemunhos" className="py-24 bg-gradient-to-b from-background to-muted/20">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-            Empresas que já confiam na CyberInspect
+            A opinião de quem confia em nós
           </h2>
-          <p className="text-lg text-muted-foreground">
-            Junte-se a centenas de empresas que protegem o seu negócio
-          </p>
         </div>
 
         {/* Testimonials Grid */}
-        <div className="grid md:grid-cols-3 gap-6 mb-16">
+        <div className="grid md:grid-cols-3 gap-6">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className="p-6 hover:shadow-card transition-all duration-300">
-              <div className="flex items-center gap-1 mb-4">
-                {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-neonOrange text-neonOrange" />
-                ))}
+            <Card key={index} className="p-8 bg-card/50 backdrop-blur border-border/50 hover:bg-card/70 transition-all duration-300">
+              <div className="flex items-start gap-4 mb-6">
+                <div className="w-12 h-12 rounded-lg bg-muted flex items-center justify-center flex-shrink-0">
+                  <span className="text-xs font-semibold text-muted-foreground">{testimonial.logo}</span>
+                </div>
+                <div>
+                  <p className="font-semibold text-foreground">{testimonial.company}, {testimonial.name}</p>
+                  <p className="text-sm text-muted-foreground">({testimonial.role})</p>
+                </div>
               </div>
               
-              <Quote className="w-8 h-8 text-neonOrange/30 mb-3" />
-              
-              <p className="text-muted-foreground mb-4 italic">{testimonial.content}</p>
-              
-              <div className="border-t border-border pt-4">
-                <p className="font-semibold">{testimonial.name}</p>
-                <p className="text-sm text-muted-foreground">{testimonial.role} • {testimonial.company}</p>
-              </div>
+              <p className="text-muted-foreground leading-relaxed">{testimonial.content}</p>
             </Card>
           ))}
         </div>
 
-        {/* Trust Badges */}
-        <div className="flex flex-wrap justify-center items-center gap-8">
-          {partners.map((partner, index) => (
-            <div key={index} className={`text-2xl font-bold ${partner.color}`}>
-              {partner.name}
-            </div>
-          ))}
-        </div>
-
-        {/* Stats */}
-        <div className="mt-16 text-center">
-          <div className="inline-flex items-center gap-2 bg-success/10 px-6 py-3 rounded-full">
-            <div className="w-2 h-2 bg-success rounded-full animate-pulse"></div>
-            <p className="text-success font-semibold">
-              +500 diagnósticos realizados desde junho de 2025
-            </p>
-          </div>
+        {/* Carousel dots */}
+        <div className="flex justify-center gap-2 mt-12">
+          <div className="w-2 h-2 rounded-full bg-primary"></div>
+          <div className="w-2 h-2 rounded-full bg-muted"></div>
+          <div className="w-2 h-2 rounded-full bg-muted"></div>
+          <div className="w-2 h-2 rounded-full bg-muted"></div>
         </div>
       </div>
     </section>

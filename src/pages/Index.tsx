@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Benefits from "@/components/Benefits";
 import FinalPositioning from "@/components/FinalPositioning";
 import FinalCTA from "@/components/FinalCTA";
+import SocialProof from "@/components/SocialProof";
 import Footer from "@/components/Footer";
 import StickyMobileCTA from "@/components/StickyMobileCTA";
 
@@ -37,6 +38,7 @@ const Index = () => {
         <Benefits />
         <FinalPositioning />
         <FinalCTA />
+        <SocialProof />
         <Footer />
         <StickyMobileCTA />
       </main>
