@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Shield, CheckCircle2 } from "lucide-react";
 import heroImage from "@/assets/remote-work.png";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-[90vh] flex items-center bg-gradient-hero overflow-hidden pt-20">
+  return <section className="relative min-h-[90vh] flex items-center bg-gradient-hero overflow-hidden pt-20">
       
       <div className="container relative z-10 mx-auto px-4 py-12">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -63,11 +61,7 @@ const Hero = () => {
           {/* Right Visual */}
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border">
-              <img 
-                src={heroImage} 
-                alt="Interface de análise de segurança digital" 
-                className="w-full h-auto"
-              />
+              <img alt="Interface de análise de segurança digital" className="w-full h-auto" src="/lovable-uploads/af1de51c-4ea4-4b1c-b125-82c3f2fcb8ec.jpg" />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent"></div>
             </div>
             
@@ -81,8 +75,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
