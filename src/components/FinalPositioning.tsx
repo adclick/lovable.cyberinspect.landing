@@ -52,7 +52,7 @@ const FinalPositioning = () => {
                 Explore uma Oportunidade de Mercado em Rápido Crescimento
               </h3>
               <p className="text-lg text-muted-foreground/90 mb-8 leading-relaxed">
-                A procura por testes de cibersegurança aumentou significativamente, especialmente com a NIS2. A CyberInspect permite-lhe captar essa procura rapidamente, entregar mais valor aos seus clientes e abrir novos fluxos de receita.
+                Explore uma oportunidade de mercado em rápido crescimento
               </p>
               <Button variant="cta" size="xl" className="group" asChild>
                 <a href="#form">
