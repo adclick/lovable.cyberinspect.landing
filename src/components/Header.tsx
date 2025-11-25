@@ -15,16 +15,6 @@ const Header = () => {
             />
           </div>
 
-          {/* Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
-            <a href="#beneficios" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Proposta de Valor
-            </a>
-            <a href="#form" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Parceria
-            </a>
-          </nav>
-
           {/* CTA Button */}
           <Button variant="cta" size="default" asChild>
             <a href="#form">Tornar-se Parceiro</a>
