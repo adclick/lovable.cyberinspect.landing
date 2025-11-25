@@ -10,7 +10,7 @@ const benefits = [
   },
   {
     icon: Zap,
-    title: "Formato Simples, Produtivo e Escalável",
+    title: "Formato simples, produtivo e escalável",
     description: "A experiência de utilização é pensada para maximizar produtividade, permitindo aos Service Providers abranger mais clientes sem aumentar equipas ou processos.",
   },
   {
