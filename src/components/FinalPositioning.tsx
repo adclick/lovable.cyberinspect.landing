@@ -48,9 +48,7 @@ const FinalPositioning = () => {
           <div className="bg-gradient-glass backdrop-blur-xl rounded-3xl p-10 border border-neonCyan/30 shadow-neon relative overflow-hidden">
             <div className="absolute inset-0 bg-gradient-neon opacity-5"></div>
             <div className="relative text-center max-w-2xl mx-auto">
-              <h3 className="text-2xl md:text-3xl font-bold mb-5 tracking-tight">
-                Explore uma Oportunidade de Mercado em Rápido Crescimento
-              </h3>
+              <h3 className="text-2xl md:text-3xl font-bold mb-5 tracking-tight">Explore uma oportunidade de nercado em rápido crescimento</h3>
               <p className="text-lg text-muted-foreground/90 mb-8 leading-relaxed">
                 Explore uma oportunidade de mercado em rápido crescimento
               </p>
