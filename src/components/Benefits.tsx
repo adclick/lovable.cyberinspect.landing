@@ -6,7 +6,7 @@ const benefits = [
   {
     icon: Layers,
     title: "Agregação de serviços relevantes",
-    description: "A CyberInspect reúne, numa única plataforma, os serviços essenciais para avaliação de riscos de cibersegurança, permitindo uma oferta completa, tecnicamente sólida e de fácil operacionalização.",
+    description: "Acesso, numa única plataforma, aos serviços essenciais para avaliação de riscos de cibersegurança, permitindo uma oferta completa, tecnicamente sólida e de fácil operacionalização.",
   },
   {
     icon: Zap,
