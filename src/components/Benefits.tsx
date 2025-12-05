@@ -20,7 +20,7 @@ const benefits = [
   },
   {
     icon: Users,
-    title: "Listagens de Prospects Qualificados",
+    title: "Geração de novas oportunidades de negócio",
     description: "Acesso a listas de potenciais clientes, incluindo a base NOS, para acelerar a prospeção e otimizar esforços comerciais.",
   },
 ];
