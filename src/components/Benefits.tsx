@@ -11,7 +11,7 @@ const benefits = [
   {
     icon: Zap,
     title: "Formato simples, produtivo e escalável",
-    description: "A experiência de utilização é pensada para maximizar produtividade, permitindo aos Service Providers abranger mais clientes sem aumentar equipas ou processos.",
+    description: "A experiência de utilização é pensada para maximizar produtividade, permitindo aos Parceiros abranger mais clientes sem aumentar equipas ou processos.",
   },
   {
     icon: MessageSquare,
@@ -31,7 +31,7 @@ const Benefits = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-foreground tracking-tight">
-            Proposta de Valor para <span className="bg-gradient-neon bg-clip-text text-transparent">Service Providers</span>
+            Proposta de Valor para Parceiros
           </h2>
           <p className="text-lg text-muted-foreground/90 leading-relaxed">
             Tudo o que precisa para escalar o seu negócio de cibersegurança

@@ -10,12 +10,12 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="inline-flex items-center gap-2 bg-gradient-glass backdrop-blur-xl text-neonOrange px-5 py-2.5 rounded-full text-sm font-medium border border-neonOrange/20 shadow-glass">
               <Shield className="w-4 h-4" />
-              <span>Solução de Referência para Service Providers</span>
+              <span>Solução de Referência para Parceiros</span>
             </div>
             
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] text-foreground">
-                A Plataforma que capacita Service Providers a <span className="bg-gradient-orange bg-clip-text text-transparent">escalar a identificação de riscos de cibersegurança</span>
+                A Plataforma que capacita Parceiros a <span className="bg-gradient-orange bg-clip-text text-transparent">escalar a identificação de riscos de cibersegurança</span>
               </h1>
               
               <p className="text-lg md:text-xl text-muted-foreground/90 max-w-xl leading-relaxed">
@@ -41,7 +41,7 @@ const Hero = () => {
               <div className="w-5 h-5 rounded-full bg-gradient-cta flex items-center justify-center">
                 <CheckCircle2 className="w-3.5 h-3.5 text-white" />
               </div>
-              <span className="text-muted-foreground">Custos Competitivos</span>
+              <span className="text-muted-foreground">Escalável e Produtivo</span>
             </div>
             <div className="flex items-center gap-2 text-sm">
               <div className="w-5 h-5 rounded-full bg-gradient-cta flex items-center justify-center">
@@ -53,7 +53,7 @@ const Hero = () => {
               <div className="w-5 h-5 rounded-full bg-gradient-cta flex items-center justify-center">
                 <CheckCircle2 className="w-3.5 h-3.5 text-white" />
               </div>
-              <span className="text-muted-foreground">Escalável e Produtivo</span>
+              <span className="text-muted-foreground">Custos Competitivos</span>
             </div>
             </div>
           </div>
@@ -65,13 +65,6 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent"></div>
             </div>
             
-            {/* Floating Badge */}
-            <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-gradient-glass backdrop-blur-2xl shadow-neon rounded-2xl px-8 py-5 border border-neonCyan/30">
-              <div className="text-center">
-                <p className="text-3xl font-bold bg-gradient-neon bg-clip-text text-transparent tracking-tight">Parceiros</p>
-                <p className="text-sm text-muted-foreground/80 font-medium">Em todo o país</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
