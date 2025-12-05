@@ -121,7 +121,7 @@ const FinalCTA = () => {
                 </Label>
               </div>
               <Button type="submit" variant="cta" size="xl" className="w-full" disabled={isLoading}>
-                {isLoading ? "A enviar..." : "Solicitar Informações"}
+                {isLoading ? "A enviar..." : "Saber mais"}
               </Button>
             </form>
 
