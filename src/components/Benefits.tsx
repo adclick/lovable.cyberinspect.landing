@@ -21,7 +21,7 @@ const benefits = [
   {
     icon: Users,
     title: "Geração de novas oportunidades de negócio",
-    description: "Acesso a listas de potenciais clientes, incluindo a base NOS, para acelerar a prospeção e otimizar esforços comerciais.",
+    description: "Oportunidade para expandir a oferta de cibersegurança e gerar novas oportunidades comerciais assentes em serviços de remediação.",
   },
 ];
 
