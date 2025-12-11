@@ -27,7 +27,9 @@ const Benefits = () => {
 
           </h2>
           <p className="text-lg text-muted-foreground/90 leading-relaxed">
-            Tudo o que precisa para escalar o seu negócio de cibersegurança
+            Acesso, numa única plataforma, aos serviços essenciais para avaliar riscos de cibersegurança. É uma solução produtiva e escalável, que permite aos Parceiros apoiar mais clientes sem aumentar equipas ou processos.
+
+
           </p>
         </div>
 
