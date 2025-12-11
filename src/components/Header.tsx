@@ -11,7 +11,7 @@ const Header = () => {
             <img 
               src={logo} 
               alt="CyberInspect Logo" 
-              className="h-8 w-auto"
+              className="h-12 w-auto"
             />
           </div>
 
