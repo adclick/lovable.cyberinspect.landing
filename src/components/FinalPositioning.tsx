@@ -8,7 +8,7 @@ const FinalPositioning = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-foreground tracking-tight leading-tight">A CyberInspect é a solução de referência para Parceiros</h2>
             <p className="text-lg md:text-xl text-muted-foreground/90 max-w-3xl mx-auto leading-relaxed">
-              Leve a identificação de riscos de cibersegurança ao maior número de organizações, reduzindo a exposição dos seus clientes e ampliando o seu próprio portfólio de serviços.
+              Acesso, numa única plataforma, aos serviços essenciais para avaliar riscos de cibersegurança, de forma simples e com elevada qualidade técnica. É uma solução produtiva e escalável, que permite aos Parceiros apoiar mais clientes sem aumentar equipas ou processos.
             </p>
           </div>
 
