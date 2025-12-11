@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import AboutCyberInspect from "@/components/AboutCyberInspect";
 import Benefits from "@/components/Benefits";
 import FinalPositioning from "@/components/FinalPositioning";
 import FinalCTA from "@/components/FinalCTA";
@@ -35,6 +36,7 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
+        <AboutCyberInspect />
         <Benefits />
         <FinalPositioning />
         <FinalCTA />
