@@ -8,16 +8,11 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center text-center mb-8">
           <img src={logo} alt="CyberInspect Logo" className="h-10 w-auto mb-4" />
-          <p className="text-muted-foreground text-sm">
-            Uma marca NOS
-          </p>
+          
         </div>
 
         {/* Certification Badges */}
-        <div className="flex justify-center items-center gap-8 mb-8">
-          <img src={iso27001Badge} alt="ISO 27001 Certified" className="h-16 w-auto opacity-90 hover:opacity-100 transition-opacity" />
-          <img src={rgpdBadge} alt="RGPD Compliant" className="h-16 w-auto opacity-90 hover:opacity-100 transition-opacity" />
-        </div>
+        
 
         {/* Client Direct Service */}
         <div className="flex justify-center mb-8">
@@ -34,7 +29,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-border pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <img src={footerLogos} alt="Logos institucionais" className="h-8 md:h-10 w-auto" />
+            
             <p className="text-sm text-muted-foreground/60">
               © 2025 CyberInspect. Todos os direitos reservados.
             </p>
