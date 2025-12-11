@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import AboutCyberInspect from "@/components/AboutCyberInspect";
 import Benefits from "@/components/Benefits";
-import FinalPositioning from "@/components/FinalPositioning";
+
 import FinalCTA from "@/components/FinalCTA";
 import SocialProof from "@/components/SocialProof";
 import Footer from "@/components/Footer";
@@ -38,7 +38,7 @@ const Index = () => {
         <Hero />
         <AboutCyberInspect />
         <Benefits />
-        <FinalPositioning />
+        
         <FinalCTA />
         <SocialProof />
         <Footer />
