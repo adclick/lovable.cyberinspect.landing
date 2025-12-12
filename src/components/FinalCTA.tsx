@@ -128,9 +128,14 @@ const FinalCTA = () => {
             {/* Features */}
             <div className="flex flex-wrap justify-center gap-6">
               {features.map((feature, index) => {
-              const Icon = feature.icon;
-              return;
-            })}
+                const Icon = feature.icon;
+                return (
+                  <div key={index} className="flex items-center gap-2 text-muted-foreground">
+                    <Icon className="w-5 h-5 text-accent" />
+                    <span className="text-sm">{feature.text}</span>
+                  </div>
+                );
+              })}
             </div>
           </Card>
 
