@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 import { Layers, TrendingUp, Target, Zap, MessageSquare, Users } from "lucide-react";
 const benefits = [{
   icon: Layers,
-  title: "Agregação de serviços relevantes",
+  title: "Agregação de serviços essenciais",
   description: "Acesso, numa única plataforma, aos serviços essenciais para avaliação de riscos de cibersegurança, permitindo uma oferta completa, tecnicamente sólida e de fácil operacionalização."
 }, {
   icon: Zap,
