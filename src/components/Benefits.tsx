@@ -8,7 +8,7 @@ const benefits = [{
 }, {
   icon: Zap,
   title: "Valores mais competitivos",
-  description: "Maximizar a produtividade com uma experiência de utilização que permite aos Parceiros abranger mais clientes sem aumentar equipas ou processos."
+  description: "Condições comerciais mais competitivas face à aquisição direta, simplificando a gestão e eliminando a necessidade de negociar com múltiplos fornecedores de testes."
 }, {
   icon: MessageSquare,
   title: "Suporte de comunicação e market intelligence",
