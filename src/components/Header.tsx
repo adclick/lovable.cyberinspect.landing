@@ -11,7 +11,7 @@ const Header = () => {
 
           {/* CTA Button */}
           <Button variant="cta" size="default" asChild>
-            <a href="#form">Tornar-se Parceiro</a>
+            
           </Button>
         </div>
       </div>
