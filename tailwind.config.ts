@@ -69,6 +69,7 @@ export default {
 			'gradient-hero': 'var(--gradient-hero)',
 			'gradient-glass': 'var(--gradient-glass)',
 			'gradient-orange': 'var(--gradient-orange)',
+			'gradient-logo': 'var(--gradient-logo)',
 		},
 		boxShadow: {
 			'glow': 'var(--shadow-glow)',

@@ -63,6 +63,7 @@ All colors MUST be HSL.
     --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     
     --gradient-orange: linear-gradient(135deg, hsl(42, 99%, 53%), hsl(42, 99%, 60%));
+    --gradient-logo: linear-gradient(90deg, hsl(236, 100%, 66%), hsl(322, 87%, 52%), hsl(42, 99%, 53%));
   }
 
   .dark {
