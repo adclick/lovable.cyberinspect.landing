@@ -6,7 +6,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <img alt="CyberInspect Logo" className="h-16 w-auto" src="/lovable-uploads/9a576a24-56d5-4b6b-92b9-68eca51403e9.png" />
+            <img alt="CyberInspect Logo" className="h-12 w-auto" src="/lovable-uploads/9a576a24-56d5-4b6b-92b9-68eca51403e9.png" />
           </div>
 
           {/* CTA Button */}
