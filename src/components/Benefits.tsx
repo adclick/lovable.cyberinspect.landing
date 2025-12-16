@@ -10,13 +10,13 @@ const benefits = [{
   title: "Geração de novas oportunidades de negócio",
   description: "Oportunidade para expandir a oferta de cibersegurança e gerar novas oportunidades comerciais assentes em serviços de remediação."
 }, {
-  icon: MessageSquare,
-  title: "Suporte de comunicação e market intelligence",
-  description: "Disponibilização de insights acionáveis, materiais de comunicação e análises apoiam os Parceiros na comunicação eficaz com os seus clientes."
-}, {
   icon: Zap,
   title: "Valores mais competitivos",
   description: "Condições comerciais mais competitivas face à aquisição direta, simplificando a gestão e eliminando a necessidade de negociar com múltiplos fornecedores de testes."
+}, {
+  icon: MessageSquare,
+  title: "Suporte de comunicação e market intelligence",
+  description: "Disponibilização de insights acionáveis, materiais de comunicação e análises apoiam os Parceiros na comunicação eficaz com os seus clientes."
 }];
 const Benefits = () => {
   return <section id="beneficios" className="pt-24 pb-6 bg-background">
