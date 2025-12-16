@@ -58,7 +58,7 @@ const Hero = () => {
           {/* Right Visual */}
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border">
-              <img alt="Interface de análise de segurança digital" className="w-full h-auto" src="/lovable-uploads/b5a7f5d5-994c-4266-8da7-84ef18d9af6d.png" />
+              <img alt="Interface de análise de segurança digital" className="w-full h-auto" src="/lovable-uploads/3b3c0b19-2bf2-409f-b59a-27371d528799.png" />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent"></div>
             </div>
             
