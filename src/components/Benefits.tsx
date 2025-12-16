@@ -26,11 +26,8 @@ const Benefits = () => {
             A solução de referência para Parceiros
 
           </h2>
-          <p className="text-lg text-muted-foreground/90 leading-relaxed">
-            Acesso, numa única plataforma, aos serviços essenciais para avaliar riscos de cibersegurança. É uma solução produtiva e escalável, que permite aos Parceiros apoiar mais clientes sem aumentar equipas ou processos.
-
-
-          </p>
+          <p className="text-lg text-muted-foreground/90 leading-relaxed">Acesso, numa única plataforma, aos serviços essenciais para avaliar riscos de cibersegurança. É uma solução produtiva e escalável, que permite aos Parceiros apoiar mais clientes sem aumentar equipas ou processos. 
+Tudo o que precisa para escalar o seu negocio no domínio da cibersegurança.</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 mb-8">
