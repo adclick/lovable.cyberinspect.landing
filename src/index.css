@@ -109,3 +109,17 @@ All colors MUST be HSL.
     @apply font-semibold tracking-tight;
   }
 }
+
+@layer components {
+  .btn-cta-white {
+    @apply bg-white font-semibold border-0 hover:scale-105 transition-transform rounded-lg;
+  }
+  
+  .btn-cta-white a,
+  .btn-cta-white span:not(.arrow) {
+    background: linear-gradient(90deg, hsl(236, 100%, 66%), hsl(322, 87%, 52%));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
