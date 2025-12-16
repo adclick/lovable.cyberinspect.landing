@@ -47,7 +47,7 @@ const Benefits = () => {
         </div>
 
         <div className="text-center">
-          <Button size="lg" className="btn-cta-white" asChild>
+          <Button variant="cta" size="lg" asChild>
             <a href="#form">Tornar-se Parceiro</a>
           </Button>
         </div>

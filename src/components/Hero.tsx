@@ -21,10 +21,10 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="xl" className="btn-cta-white group" asChild>
+              <Button variant="cta" size="xl" className="group" asChild>
                 <a href="#form">
                   Tornar-se Parceiro
-                  <span className="arrow ml-2 group-hover:translate-x-1 transition-transform !text-accent">→</span>
+                  <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
                 </a>
               </Button>
               
