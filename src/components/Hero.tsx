@@ -28,7 +28,7 @@ const Hero = () => {
                 </a>
               </Button>
               
-              <Button variant="outline-light" size="xl" asChild>
+              <Button variant="outline-light" size="xl" className="bg-gradient-logo text-white border-0 hover:opacity-90" asChild>
                 <a href="#beneficios">Saiba Mais</a>
               </Button>
             </div>
