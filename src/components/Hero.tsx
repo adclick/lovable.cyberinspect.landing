@@ -24,7 +24,7 @@ const Hero = () => {
               <Button size="xl" className="btn-cta-white group" asChild>
                 <a href="#form">
                   Tornar-se Parceiro
-                  <span className="arrow ml-2 group-hover:translate-x-1 transition-transform !text-secondary">→</span>
+                  <span className="arrow ml-2 group-hover:translate-x-1 transition-transform !text-accent">→</span>
                 </a>
               </Button>
               
