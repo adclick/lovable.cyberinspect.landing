@@ -7,7 +7,7 @@ const Footer = () => {
   return <footer id="contactos" className="bg-card border-t border-border py-12">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center text-center mb-8">
-          <img src={logo} alt="CyberInspect Logo" className="h-10 w-auto mb-4" />
+          <img alt="CyberInspect Logo" className="h-10 w-auto mb-4" src="/lovable-uploads/3ea7802d-f0d7-4483-8d80-5e72243866f0.png" />
           
         </div>
 
