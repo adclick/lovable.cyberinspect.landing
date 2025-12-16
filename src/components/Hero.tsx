@@ -22,7 +22,7 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="cta" size="xl" className="group" asChild>
-                <a href="#form">
+                <a href="#form" className="bg-primary-foreground">
                   Tornar-se Parceiro
                   <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
                 </a>
