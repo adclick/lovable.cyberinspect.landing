@@ -117,7 +117,7 @@ All colors MUST be HSL.
   
   .btn-cta-white a,
   .btn-cta-white span:not(.arrow) {
-    background: linear-gradient(90deg, hsl(236, 100%, 66%), hsl(322, 87%, 52%));
+    background: linear-gradient(90deg, hsl(236, 100%, 66%), hsl(42, 99%, 53%));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
