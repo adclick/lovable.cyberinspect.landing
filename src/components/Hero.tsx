@@ -56,7 +56,7 @@ const Hero = () => {
           </div>
 
           {/* Right Visual */}
-          <div className="relative">
+          <div className="relative scale-[1.2] origin-center">
             <img alt="Interface de análise de segurança digital" className="w-full h-auto" src="/lovable-uploads/3ceaaf92-8544-4537-8e4e-28b9efec4aa5.png" />
           </div>
         </div>
