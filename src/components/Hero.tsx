@@ -11,7 +11,7 @@ const Hero = () => {
             
             
             <div className="space-y-6">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] text-foreground">
+              <h1 className="text-4xl md:text-5xl font-bold leading-[1.1] text-foreground lg:text-5xl">
                 A Plataforma que capacita Parceiros a <span className="bg-gradient-orange bg-clip-text text-transparent">escalar a identificação de riscos de cibersegurança</span>
               </h1>
               
