@@ -4,7 +4,7 @@ import { Layers, TrendingUp, Target, Zap, MessageSquare, Users } from "lucide-re
 const benefits = [{
   icon: Layers,
   title: "Agregação de serviços essenciais",
-  description: "Acesso, numa única plataforma, aos serviços essenciais para avaliação de riscos de cibersegurança, permitindo uma oferta completa, tecnicamente sólida e de fácil operacionalização."
+  description: "Acesso, numa única plataforma, aos serviços essenciais para avaliar riscos de cibersegurança, de forma simples e com elevada qualidade técnica, aumentando a produtividade e a escala dos Parceiros sem necessidade de reforçar equipas."
 }, {
   icon: Zap,
   title: "Formato simples, produtivo e escalável",
