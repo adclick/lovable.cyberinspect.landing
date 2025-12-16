@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Shield, CheckCircle2 } from "lucide-react";
-import heroImage from "@/assets/remote-work.png";
+import heroImage from "@/assets/hero-grafico.png";
 const Hero = () => {
   return <section className="relative min-h-[90vh] flex items-center bg-gradient-hero overflow-hidden pt-20">
       
@@ -57,7 +57,7 @@ const Hero = () => {
 
           {/* Right Visual */}
           <div className="relative scale-[1.2] origin-center">
-            <img alt="Interface de análise de segurança digital" className="w-full h-auto" src="/lovable-uploads/3ceaaf92-8544-4537-8e4e-28b9efec4aa5.png" />
+            <img alt="Interface de análise de segurança digital" className="w-full h-auto" src={heroImage} />
           </div>
         </div>
       </div>
