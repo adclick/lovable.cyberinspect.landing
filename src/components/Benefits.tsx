@@ -6,17 +6,17 @@ const benefits = [{
   title: "Agregação de serviços essenciais",
   description: "Acesso, numa única plataforma, aos serviços essenciais para avaliar riscos de cibersegurança, de forma simples e com elevada qualidade técnica, aumentando a produtividade e a escala dos Parceiros sem necessidade de reforçar equipas."
 }, {
-  icon: Zap,
-  title: "Valores mais competitivos",
-  description: "Condições comerciais mais competitivas face à aquisição direta, simplificando a gestão e eliminando a necessidade de negociar com múltiplos fornecedores de testes."
+  icon: Users,
+  title: "Geração de novas oportunidades de negócio",
+  description: "Oportunidade para expandir a oferta de cibersegurança e gerar novas oportunidades comerciais assentes em serviços de remediação."
 }, {
   icon: MessageSquare,
   title: "Suporte de comunicação e market intelligence",
   description: "Disponibilização de insights acionáveis, materiais de comunicação e análises apoiam os Parceiros na comunicação eficaz com os seus clientes."
 }, {
-  icon: Users,
-  title: "Geração de novas oportunidades de negócio",
-  description: "Oportunidade para expandir a oferta de cibersegurança e gerar novas oportunidades comerciais assentes em serviços de remediação."
+  icon: Zap,
+  title: "Valores mais competitivos",
+  description: "Condições comerciais mais competitivas face à aquisição direta, simplificando a gestão e eliminando a necessidade de negociar com múltiplos fornecedores de testes."
 }];
 const Benefits = () => {
   return <section id="beneficios" className="pt-24 pb-6 bg-background">
