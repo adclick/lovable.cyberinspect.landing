@@ -7,7 +7,7 @@ const benefits = [{
   description: "Acesso, numa única plataforma, aos serviços essenciais para avaliar riscos de cibersegurança, de forma simples e com elevada qualidade técnica, aumentando a produtividade e a escala dos Parceiros sem necessidade de reforçar equipas."
 }, {
   icon: Zap,
-  title: "Formato simples, produtivo e escalável",
+  title: "Valores mais competitivos",
   description: "Maximizar a produtividade com uma experiência de utilização que permite aos Parceiros abranger mais clientes sem aumentar equipas ou processos."
 }, {
   icon: MessageSquare,
