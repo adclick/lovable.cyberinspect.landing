@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 import { Layers, TrendingUp, Target, Zap, MessageSquare, Users } from "lucide-react";
 const benefits = [{
   icon: Layers,
-  title: "Plataforma unificada de avaliação de risco",
+  title: "Agregação de serviços essenciais",
   description: "Acesso, numa única plataforma, aos serviços essenciais para avaliar riscos de cibersegurança, de forma simples e com elevada qualidade técnica, aumentando a produtividade e a escala dos Parceiros sem necessidade de reforçar equipas."
 }, {
   icon: Users,
@@ -11,11 +11,11 @@ const benefits = [{
   description: "Oportunidade para expandir a oferta de cibersegurança e gerar novas oportunidades comerciais assentes em serviços de remediação."
 }, {
   icon: Zap,
-  title: "Modelo comercial otimizado",
+  title: "Valores mais competitivos",
   description: "Condições comerciais mais competitivas face à aquisição direta, simplificando a gestão e eliminando a necessidade de negociar com múltiplos fornecedores de testes."
 }, {
   icon: MessageSquare,
-  title: "Aceleração comercial & Inteligência de mercado",
+  title: "Suporte de comunicação e market intelligence",
   description: "Disponibilização de insights acionáveis, materiais de comunicação e análises apoiam os Parceiros na comunicação eficaz com os seus clientes."
 }];
 const Benefits = () => {
@@ -26,8 +26,7 @@ const Benefits = () => {
             A solução de referência para Parceiros
 
           </h2>
-          <p className="text-lg text-muted-foreground/90 leading-relaxed">Acesso, numa única plataforma, aos serviços essenciais para avaliar riscos de cibersegurança. É uma solução produtiva e escalável, que permite aos Parceiros apoiar mais clientes sem aumentar equipas ou processos. 
-Tudo o que precisa para escalar o seu negocio no domínio da cibersegurança.</p>
+          <p className="text-lg text-muted-foreground/90 leading-relaxed">Tudo o que precisa para escalar o seu negocio no domínio da cibersegurança.</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 mb-8">
