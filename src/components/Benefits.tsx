@@ -15,7 +15,7 @@ const benefits = [{
   description: "Condições comerciais mais competitivas face à aquisição direta, simplificando a gestão e eliminando a necessidade de negociar com múltiplos fornecedores de testes."
 }, {
   icon: MessageSquare,
-  title: "Suporte de comunicação e market intelligence",
+  title: "Aceleração comercial & Inteligência de mercado",
   description: "Disponibilização de insights acionáveis, materiais de comunicação e análises apoiam os Parceiros na comunicação eficaz com os seus clientes."
 }];
 const Benefits = () => {
