@@ -120,8 +120,10 @@ const FinalCTA = () => {
                   e de eventos relacionados com a plataforma CyberInspect.
                 </Label>
               </div>
-              <Button type="submit" variant="cta" size="xl" className="w-full bg-gradient-logo hover:opacity-90" disabled={isLoading}>
-                {isLoading ? "A enviar..." : "Saber mais"}
+              <Button type="submit" variant="cta" size="xl" className="w-full bg-white hover:bg-white/90" disabled={isLoading}>
+                <span className="bg-gradient-logo bg-clip-text text-transparent font-semibold">
+                  {isLoading ? "A enviar..." : "Saber mais"}
+                </span>
               </Button>
             </form>
 
