@@ -11,7 +11,7 @@ const benefits = [{
   description: "Oportunidade para expandir a oferta de cibersegurança e gerar novas oportunidades comerciais assentes em serviços de remediação."
 }, {
   icon: Zap,
-  title: "Valores mais competitivos",
+  title: "Modelo comercial otimizado",
   description: "Condições comerciais mais competitivas face à aquisição direta, simplificando a gestão e eliminando a necessidade de negociar com múltiplos fornecedores de testes."
 }, {
   icon: MessageSquare,
