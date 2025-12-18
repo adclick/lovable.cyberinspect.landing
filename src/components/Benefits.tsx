@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 import { Layers, TrendingUp, Target, Zap, MessageSquare, Users } from "lucide-react";
 const benefits = [{
   icon: Layers,
-  title: "Agregação de serviços essenciais",
+  title: "Plataforma unificada de avaliação de risco",
   description: "Acesso, numa única plataforma, aos serviços essenciais para avaliar riscos de cibersegurança, de forma simples e com elevada qualidade técnica, aumentando a produtividade e a escala dos Parceiros sem necessidade de reforçar equipas."
 }, {
   icon: Users,
