@@ -7,7 +7,7 @@ const benefits = [{
   description: "Acesso, numa única plataforma, aos serviços essenciais para avaliar riscos de cibersegurança, de forma simples e com elevada qualidade técnica, aumentando a produtividade e a escala dos Parceiros sem necessidade de reforçar equipas."
 }, {
   icon: Users,
-  title: "Geração de novas oportunidades de negócio",
+  title: "Motor de crescimento comercial",
   description: "Oportunidade para expandir a oferta de cibersegurança e gerar novas oportunidades comerciais assentes em serviços de remediação."
 }, {
   icon: Zap,
