@@ -11,7 +11,7 @@ const benefits = [{
   description: "Oportunidade para expandir a oferta de cibersegurança e gerar novas oportunidades comerciais assentes em serviços de remediação."
 }, {
   icon: Zap,
-  title: "Valores mais competitivos",
+  title: "Produtividade e valores competitivos",
   description: "Aumento da produtividade e da capacidade de escala sem necessidade de reforço de equipas, aliado a condições comerciais mais competitivas face à aquisição direta."
 }, {
   icon: MessageSquare,
