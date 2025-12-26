@@ -51,7 +51,7 @@ const Hero = () => {
               <div className="w-5 h-5 rounded-full bg-gradient-cta flex items-center justify-center">
                 <CheckCircle2 className="w-3.5 h-3.5 text-white" />
               </div>
-              <span className="text-muted-foreground">Custos Competitivos</span>
+              <span className="text-muted-foreground">Valores Competitivos</span>
             </div>
             </div>
           </div>
