@@ -12,7 +12,7 @@ const benefits = [{
 }, {
   icon: Zap,
   title: "Valores mais competitivos",
-  description: "Condições comerciais mais competitivas face à aquisição direta, simplificando a gestão e eliminando a necessidade de negociar com múltiplos fornecedores de testes."
+  description: "Aumento da produtividade e da capacidade de escala sem necessidade de reforço de equipas, aliado a condições comerciais mais competitivas face à aquisição direta."
 }, {
   icon: MessageSquare,
   title: "Suporte de comunicação e market intelligence",
