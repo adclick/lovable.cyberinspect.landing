@@ -26,7 +26,7 @@ const Benefits = () => {
             A solução de referência para Parceiros
 
           </h2>
-          <p className="text-lg text-muted-foreground/90 leading-relaxed">Tudo o que precisa para escalar o seu negocio no domínio da cibersegurança.</p>
+          <p className="text-lg text-muted-foreground/90 leading-relaxed">Tudo o que precisa para escalar o seu negócio no domínio da cibersegurança.</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 mb-8">
