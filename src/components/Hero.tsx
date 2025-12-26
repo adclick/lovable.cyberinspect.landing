@@ -16,7 +16,8 @@ const Hero = () => {
               </h1>
               
               <p className="text-lg md:text-xl text-muted-foreground/90 max-w-xl leading-relaxed">
-                Aumente margens, acelere entregas e responda à procura crescente de testes de cibersegurança.
+                Transforme ciber riscos em novas oportunidade de negócio.
+
               </p>
             </div>
 
