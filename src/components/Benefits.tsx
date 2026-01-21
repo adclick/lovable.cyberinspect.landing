@@ -45,7 +45,7 @@ const Benefits = () => {
         <div className="text-center">
           <Button variant="cta" size="lg" className="bg-white hover:bg-white/90" asChild>
             <a href="#form">
-              <span className="bg-gradient-logo bg-clip-text text-transparent font-semibold">Tornar-se Parceiro</span>
+              <span className="text-primary font-semibold">Tornar-se Parceiro</span>
             </a>
           </Button>
         </div>
