@@ -100,8 +100,9 @@ const FinalCTA = () => {
               </div>
 
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-foreground">Torne-se um parceiro CyberInspect</h2>
-              <p className="text-lg text-muted-foreground">
-                Preencha o formulário e a nossa equipa entrará em contacto para apresentar as condições de parceria.
+              <p className="text-lg text-destructive-foreground">
+                Preencha o formulário e a nossa equipa entrará em contacto
+para dar a conhecer o produto e as condições de parceria.
               </p>
             </div>
 
@@ -130,14 +131,12 @@ const FinalCTA = () => {
             {/* Features */}
             <div className="flex flex-wrap justify-center gap-6">
               {features.map((feature, index) => {
-                const Icon = feature.icon;
-                return (
-                  <div key={index} className="flex items-center gap-2 text-muted-foreground">
+              const Icon = feature.icon;
+              return <div key={index} className="flex items-center gap-2 text-muted-foreground">
                     <Icon className="w-5 h-5 text-accent" />
                     <span className="text-sm">{feature.text}</span>
-                  </div>
-                );
-              })}
+                  </div>;
+            })}
             </div>
           </Card>
 
