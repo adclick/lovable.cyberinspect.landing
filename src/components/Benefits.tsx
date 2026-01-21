@@ -12,7 +12,7 @@ const benefits = [{
 }, {
   icon: Zap,
   title: "Produtividade e valores competitivos",
-  description: "Aumento da produtividade e da capacidade de escala sem necessidade de reforço de equipas, aliado a condições comerciais mais competitivas face à aquisição direta."
+  description: "Elevada produtividade e capacidade de escala por via de simplicidade e automação, aliado a condições comerciais competitivas."
 }, {
   icon: MessageSquare,
   title: "Suporte de comunicação e market intelligence",
