@@ -16,7 +16,7 @@ const Hero = () => {
               </h1>
               
               <p className="text-lg md:text-xl text-muted-foreground/90 max-w-xl leading-relaxed">
-                Transforme ciber riscos em novas oportunidade de negócio.
+                Transforme ciber riscos em novas oportunidades de negócio.
 
               </p>
             </div>
