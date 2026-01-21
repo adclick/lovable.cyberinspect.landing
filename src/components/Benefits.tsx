@@ -16,7 +16,7 @@ const benefits = [{
 }, {
   icon: MessageSquare,
   title: "Comunicação e análise de mercado",
-  description: "Disponibilização de insights acionáveis, materiais de comunicação e análises apoiam os Parceiros na comunicação eficaz com os seus clientes."
+  description: "Materiais de comunicação profissionais e análises de mercado que apoiam os nossos Parceiros na sua atividade de comunicação a clientes."
 }];
 const Benefits = () => {
   return <section id="beneficios" className="pt-24 pb-6 bg-background">
