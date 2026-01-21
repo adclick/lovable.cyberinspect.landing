@@ -15,7 +15,7 @@ const benefits = [{
   description: "Elevada produtividade e capacidade de escala por via de simplicidade e automação, aliado a condições comerciais competitivas."
 }, {
   icon: MessageSquare,
-  title: "Suporte de comunicação e market intelligence",
+  title: "Comunicação e análise de mercado",
   description: "Disponibilização de insights acionáveis, materiais de comunicação e análises apoiam os Parceiros na comunicação eficaz com os seus clientes."
 }];
 const Benefits = () => {
