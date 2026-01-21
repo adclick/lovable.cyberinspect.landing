@@ -24,8 +24,8 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="cta" size="xl" className="group bg-white hover:bg-white/90 shadow-cta" asChild>
                 <a href="#form">
-                  <span className="bg-gradient-logo bg-clip-text text-transparent font-semibold">Tornar-se Parceiro</span>
-                  <span className="ml-2 group-hover:translate-x-1 transition-transform bg-gradient-logo bg-clip-text text-transparent">→</span>
+                  <span className="text-primary font-semibold">Tornar-se Parceiro</span>
+                  <span className="ml-2 group-hover:translate-x-1 transition-transform text-primary">→</span>
                 </a>
               </Button>
               
