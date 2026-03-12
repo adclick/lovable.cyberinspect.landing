@@ -37,6 +37,9 @@ const FinalCTA = () => {
   };
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    e.stopPropagation();
+
+    if (isLoading) return;
 
     // Validate phone number
     if (phone.length !== 9) {
